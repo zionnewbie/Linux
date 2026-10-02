@@ -1,0 +1,492 @@
+# ╭──────────────────────────────────────────────────────────────╮
+# │ Tokyo Night — Local Starship Configuration                    │
+# │ Alacritty + JetBrainsMono Nerd Font                           │
+# │ Fully local — no external schema                              │
+# ╰──────────────────────────────────────────────────────────────╯
+
+# ── Prompt ──────────────────────────────────────────────────────
+
+format = """
+$os\
+$username\
+$hostname\
+$directory\
+$git_branch\
+$git_status\
+$git_state\
+$line_break\
+$character"""
+
+right_format = """
+$cmd_duration\
+$battery\
+$time"""
+
+add_newline = false
+
+# Local-only / fast startup
+scan_timeout = 10
+command_timeout = 500
+
+# ── Tokyo Night palette ─────────────────────────────────────────
+
+palette = "tokyo_night"
+
+[palettes.tokyo_night]
+background = "#1a1b26"
+foreground = "#a9b1d6"
+
+black = "#32344a"
+red = "#f7768e"
+green = "#9ece6a"
+yellow = "#e0af68"
+blue = "#7aa2f7"
+purple = "#ad8ee6"
+cyan = "#449dab"
+white = "#787c99"
+
+bright_black = "#444b6a"
+bright_red = "#ff7a93"
+bright_green = "#b9f27c"
+bright_yellow = "#ff9e64"
+bright_blue = "#7da6ff"
+bright_purple = "#bb9af7"
+bright_cyan = "#0db9d7"
+bright_white = "#acb0d0"
+
+
+# ── Core prompt ─────────────────────────────────────────────────
+
+[os]
+format = "[$symbol]($style) "
+style = "bold blue"
+disabled = false
+
+[username]
+show_always = false
+format = "[$user]($style) "
+style_user = "bold cyan"
+style_root = "bold red"
+
+[hostname]
+ssh_only = true
+format = "[@$hostname]($style) "
+style = "bold purple"
+ssh_symbol = " "
+
+[directory]
+format = "[$path]($style)[$read_only]($read_only_style) "
+style = "bold blue"
+read_only = " 󰌾"
+read_only_style = "bold red"
+
+truncation_length = 3
+truncate_to_repo = true
+fish_style_pwd_dir_length = 1
+home_symbol = "~"
+
+[character]
+success_symbol = "[❯](bold green)"
+error_symbol = "[❯](bold red)"
+vimcmd_symbol = "[❮](bold purple)"
+
+
+# ── Git ─────────────────────────────────────────────────────────
+
+[git_branch]
+format = "[$symbol$branch]($style) "
+symbol = " "
+style = "bold purple"
+
+truncation_length = 24
+truncation_symbol = "…"
+
+[git_commit]
+format = "[$hash$tag]($style) "
+style = "bold purple"
+
+commit_hash_length = 7
+tag_symbol = "  "
+
+[git_state]
+format = "[$state( $progress_current/$progress_total)]($style) "
+style = "bold yellow"
+
+[git_status]
+format = "([$all_status$ahead_behind]($style) )"
+style = "bold red"
+
+conflicted = "=${count} "
+ahead = "⇡${count} "
+behind = "⇣${count} "
+diverged = "⇕${ahead_count}⇣${behind_count} "
+up_to_date = ""
+untracked = "?${count} "
+stashed = "≡${count} "
+modified = "!${count} "
+staged = "+${count} "
+renamed = "»${count} "
+deleted = "✘${count} "
+
+
+# ── Command / shell state ──────────────────────────────────────
+
+[cmd_duration]
+min_time = 2000
+format = "[$duration]($style) "
+style = "bold yellow"
+show_milliseconds = false
+
+[status]
+disabled = true
+symbol = " "
+
+[shell]
+disabled = true
+
+[shlvl]
+disabled = true
+
+[jobs]
+symbol = "✦ "
+style = "bold cyan"
+
+
+# ── Battery ─────────────────────────────────────────────────────
+
+[battery]
+format = "[$symbol$percentage]($style) "
+
+full_symbol = "󰁹 "
+charging_symbol = "󰂄 "
+discharging_symbol = "󰂃 "
+unknown_symbol = "󰂑 "
+empty_symbol = "󰂎 "
+
+[[battery.display]]
+threshold = 20
+style = "bold red"
+
+[[battery.display]]
+threshold = 50
+style = "bold yellow"
+
+[[battery.display]]
+threshold = 100
+style = "bold green"
+
+
+# ── Time ────────────────────────────────────────────────────────
+
+[time]
+disabled = false
+format = "[$time]($style)"
+style = "bold cyan"
+time_format = "%H:%M"
+
+
+# ── Cloud / infrastructure ─────────────────────────────────────
+
+[aws]
+symbol = " "
+style = "bold yellow"
+
+[azure]
+symbol = " "
+style = "bold blue"
+
+[gcloud]
+symbol = "󱇶 "
+style = "bold blue"
+
+[docker_context]
+symbol = " "
+style = "bold cyan"
+
+[kubernetes]
+symbol = "󱃾 "
+style = "bold blue"
+
+[container]
+symbol = " "
+style = "bold red"
+
+[netns]
+symbol = "󰛳 "
+style = "bold cyan"
+
+[terraform]
+symbol = " "
+style = "bold purple"
+
+[pulumi]
+symbol = " "
+style = "bold cyan"
+
+[helm]
+symbol = " "
+style = "bold cyan"
+
+[openstack]
+symbol = " "
+style = "bold red"
+
+[singularity]
+symbol = " "
+style = "bold red"
+
+
+# ── Languages / runtimes ───────────────────────────────────────
+
+[buf]
+symbol = " "
+
+[bun]
+symbol = " "
+
+[c]
+symbol = " "
+
+[cpp]
+symbol = " "
+
+[cmake]
+symbol = " "
+
+[cobol]
+symbol = " "
+
+[conda]
+symbol = " "
+
+[crystal]
+symbol = " "
+
+[dart]
+symbol = " "
+
+[deno]
+symbol = " "
+
+[direnv]
+symbol = " "
+
+[dotnet]
+symbol = " "
+
+[elixir]
+symbol = " "
+
+[elm]
+symbol = " "
+
+[erlang]
+symbol = " "
+
+[fennel]
+symbol = " "
+
+[fortran]
+symbol = " "
+
+[gleam]
+symbol = " "
+
+[golang]
+symbol = " "
+
+[gradle]
+symbol = " "
+
+[haskell]
+symbol = " "
+
+[haxe]
+symbol = " "
+
+[java]
+symbol = " "
+
+[julia]
+symbol = " "
+
+[kotlin]
+symbol = " "
+
+[lua]
+symbol = " "
+
+[maven]
+symbol = " "
+
+[meson]
+symbol = "󰔷 "
+
+[mojo]
+symbol = "󰈸 "
+
+[nim]
+symbol = " "
+
+[nix_shell]
+symbol = " "
+
+[nodejs]
+symbol = " "
+
+[ocaml]
+symbol = " "
+
+[odin]
+symbol = "󰟢 "
+
+[opa]
+symbol = " "
+
+[perl]
+symbol = " "
+
+[php]
+symbol = " "
+
+[purescript]
+symbol = " "
+
+[python]
+symbol = " "
+
+[raku]
+symbol = "󱖊 "
+
+[rlang]
+symbol = "󰟔 "
+
+[ruby]
+symbol = " "
+
+[rust]
+symbol = "󱘗 "
+
+[scala]
+symbol = " "
+
+[solidity]
+symbol = " "
+
+[spack]
+symbol = " "
+
+[swift]
+symbol = " "
+
+[typst]
+symbol = " "
+
+[vlang]
+symbol = " "
+
+[xmake]
+symbol = " "
+
+[zig]
+symbol = " "
+
+
+# ── Package / environment tools ────────────────────────────────
+
+[package]
+symbol = "󰏗 "
+style = "bold yellow"
+
+[pixi]
+symbol = "󰏗 "
+
+[guix_shell]
+symbol = " "
+
+[vagrant]
+symbol = " "
+
+[fossil_branch]
+symbol = " "
+
+[hg_branch]
+symbol = " "
+
+[pijul_channel]
+symbol = " "
+
+[nats]
+symbol = " "
+
+[sudo]
+symbol = " "
+
+[memory_usage]
+symbol = "󰍛 "
+
+[red]
+symbol = "󱍼 "
+
+
+# ── OS symbols ─────────────────────────────────────────────────
+
+[os.symbols]
+AIX = " "
+AlmaLinux = " "
+Alpaquita = " "
+Alpine = " "
+ALTLinux = " "
+Amazon = " "
+Android = " "
+AOSC = " "
+Arch = " "
+Artix = " "
+Bluefin = " "
+CachyOS = " "
+CentOS = " "
+Debian = " "
+DragonFly = " "
+Elementary = " "
+Emscripten = " "
+EndeavourOS = " "
+Fedora = " "
+FreeBSD = " "
+Garuda = " "
+Gentoo = " "
+HardenedBSD = "󰞌 "
+Illumos = " "
+InstantOS = " "
+Ios = "󰀷 "
+Kali = " "
+Linux = " "
+Mabox = " "
+Macos = " "
+Manjaro = " "
+Mariner = " "
+MidnightBSD = " "
+Mint = " "
+NetBSD = " "
+NixOS = " "
+Nobara = " "
+OpenBSD = " "
+OpenCloudOS = " "
+openEuler = " "
+openSUSE = " "
+OracleLinux = "󰺡 "
+PikaOS = " "
+Pop = " "
+Raspbian = " "
+Redhat = "󱄛 "
+RedHatEnterprise = "󱄛 "
+Redox = "󰀘 "
+RockyLinux = " "
+Solus = " "
+SUSE = " "
+Ubuntu = " "
+Ultramarine = " "
+Unknown = " "
+Uos = " "
+Void = " "
+Windows = "󰍲 "
+Zorin = " "

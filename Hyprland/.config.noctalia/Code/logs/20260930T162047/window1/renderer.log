@@ -1,0 +1,4 @@
+2026-09-30 16:20:48.031 [info] [RemoteAgentHost] Reconciling: desired=[], current=[]
+2026-09-30 16:20:48.331 [info] Started local extension host with pid 59969.
+2026-09-30 16:20:49.129 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-30 16:20:49.334 [info] Settings Sync: Account status changed from uninitialized to unavailable

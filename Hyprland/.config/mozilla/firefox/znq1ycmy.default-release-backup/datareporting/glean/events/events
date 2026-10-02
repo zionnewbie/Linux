@@ -1,0 +1,12 @@
+{"timestamp":991255,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"path_key":"clean","can_load":"true","glean_timestamp":"1790318917898","loadfail_reason":"N/A"}}
+{"timestamp":991255,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"glean_timestamp":"1790318917898","loadfail_reason":"N/A","can_load":"true","path_key":"clean"}}
+{"timestamp":991255,"category":"session_restore","name":"shutdown_success_session_startup","extra":{"shutdown_reason":"N/A","glean_timestamp":"1790318917898","shutdown_ok":"false"}}
+{"timestamp":991601,"category":"jsonfile","name":"load_logins","extra":{"value":"error_notfounderror","glean_timestamp":"1790318918244"}}
+{"timestamp":991751,"category":"nimbus_events","name":"startup_database_consistency","extra":{"total_store_count":"34","total_db_count":"34","db_active_count":"34","primary":"database","trigger":"startup","glean_timestamp":"1790318918394","store_active_count":"34"}}
+{"timestamp":991769,"category":"jsonfile","name":"load_autofillprofiles","extra":{"value":"error_notfounderror","glean_timestamp":"1790318918412"}}
+{"timestamp":991774,"category":"doh","name":"state_rollback","extra":{"value":"null","glean_timestamp":"1790318918416"}}
+{"timestamp":991791,"category":"containers","name":"container_profile_loaded","extra":{"glean_timestamp":"1790318918433","containers":"4"}}
+{"timestamp":991830,"category":"upgrade_dialog","name":"trigger_reason","extra":{"value":"not-major","glean_timestamp":"1790318918472"}}
+{"timestamp":991984,"category":"glean","name":"session_start","extra":{"session_id":"48e68abb-900b-4706-9250-291071c11b23","glean_timestamp":"991984","session_seq":"6","sampled_in":"true","session_start_time":"2026-09-25T12:18:38.626+05:30"}}
+{"timestamp":992076,"category":"nimbus_events","name":"is_ready","extra":{"glean_timestamp":"1790318918719"},"session":{"session_id":"48e68abb-900b-4706-9250-291071c11b23","session_seq":6,"event_seq":248,"session_sample_rate":1.0,"session_start_time":"2026-09-25T12:18:38.626+05:30"}}
+{"timestamp":994714,"category":"doh","name":"state_shutdown","extra":{"value":"null","glean_timestamp":"1790318921356"},"session":{"session_id":"48e68abb-900b-4706-9250-291071c11b23","session_seq":6,"event_seq":249,"session_sample_rate":1.0,"session_start_time":"2026-09-25T12:18:38.626+05:30"}}

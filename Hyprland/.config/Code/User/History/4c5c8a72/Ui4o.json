@@ -1,0 +1,17 @@
+{
+    "chat.disableAIFeatures": true,
+    "explorer.confirmDragAndDrop": false,
+    "editor.formatOnSave": true,
+    "files.autoSave": "afterDelay",
+    "window.autoDetectColorScheme": true,
+    "workbench.preferredDarkColorTheme": "Tokyo Night",
+    "workbench.startupEditor": "none",
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "python.analysis.typeCheckingMode": "standard"
+}

@@ -1,0 +1,344 @@
+2026-10-01 17:26:07.998 [info] Extension host with pid 15770 started
+2026-10-01 17:26:07.998 [info] Skipping acquiring lock for /home/radio/.config/Code/User/workspaceStorage/e0685df4962b20797b629574ff3a4808.
+2026-10-01 17:26:08.112 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-10-01 17:26:08.132 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-10-01 17:26:08.144 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-10-01 17:26:08.149 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-10-01 17:26:08.208 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-10-01 17:26:08.531 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-10-01 17:26:08.532 [info] ExtensionService#_doActivateExtension mhutchie.git-graph, startup: true, activationEvent: '*'
+2026-10-01 17:26:08.672 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-10-01 17:26:08.702 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-10-01 17:26:08.775 [info] Eager extensions activated
+2026-10-01 17:26:08.789 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-10-01 17:26:08.790 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-10-01 17:26:08.801 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2026-10-01 17:26:08.806 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2026-10-01 17:26:08.814 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2026-10-01 17:26:20.611 [info] Extension host terminating: received terminate message from renderer
+2026-10-01 17:26:20.623 [info] Extension host with pid 15770 exiting with code 0
+2026-10-01 17:26:21.279 [info] Extension host with pid 20486 started
+2026-10-01 17:26:21.279 [info] Skipping acquiring lock for /home/radio/.config/Code/User/workspaceStorage/558cb550cc9cb496fdca5b25e8419c13.
+2026-10-01 17:26:21.355 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-10-01 17:26:21.373 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-10-01 17:26:21.420 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2026-10-01 17:26:21.441 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-10-01 17:26:21.466 [info] Eager extensions activated
+2026-10-01 17:26:21.496 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-10-01 17:26:21.497 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-10-01 17:26:24.815 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2026-10-01 17:26:24.986 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2026-10-01 17:26:25.004 [info] ExtensionService#_doActivateExtension mhutchie.git-graph, startup: false, activationEvent: '*'
+2026-10-01 17:26:25.015 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2026-10-01 17:26:25.024 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2026-10-01 17:26:25.087 [info] ExtensionService#_doActivateExtension theqtcompany.qt-core, startup: false, activationEvent: 'workspaceContains:**/*.qml,**/*.qmlproject,**/*.qtd,**/*.qzt', root cause: theqtcompany.qt-qml
+2026-10-01 17:26:25.207 [info] ExtensionService#_doActivateExtension ms-vscode.cmake-tools, startup: false, activationEvent: 'workspaceContains:**/CMakeLists.txt', root cause: theqtcompany.qt-cpp
+2026-10-01 17:26:25.373 [info] ExtensionService#_doActivateExtension theqtcompany.qt-qml, startup: false, activationEvent: 'workspaceContains:**/*.qml,**/*.qmlproject,**/*.qtd,**/*.qzt'
+2026-10-01 17:26:25.447 [info] ExtensionService#_doActivateExtension theqtcompany.qt-ui, startup: false, activationEvent: 'workspaceContains:**/*.ui'
+2026-10-01 17:26:25.789 [info] ExtensionService#_doActivateExtension theqtcompany.qt-cpp, startup: false, activationEvent: 'workspaceContains:**/CMakeLists.txt'
+2026-10-01 17:26:26.638 [error] Error: write EPIPE
+	at afterWriteDispatched (node:internal/stream_base_commons:159:15)
+	at writeGeneric (node:internal/stream_base_commons:150:3)
+	at Socket._writeGeneric (node:net:1258:11)
+	at Socket._write (node:net:1270:8)
+	at writeOrBuffer (node:internal/streams/writable:574:12)
+	at _write (node:internal/streams/writable:503:10)
+	at Writable.write (node:internal/streams/writable:512:10)
+	at /home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:84:14265
+	at new Promise (<anonymous>)
+	at YM.write (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:84:14186)
+	at JT.doWrite (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:56:1627)
+	at /home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:56:1526
+2026-10-01 17:26:26.639 [error] Error: Client is not running and can't be stopped. It's current state is: starting
+	at h2.shutdown (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:92:8500)
+	at h2.stop (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:92:8079)
+	at h2.stop (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:95:31201)
+	at h2.doInitialize (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:92:7904)
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+	at async h2.start (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:92:4473)
+2026-10-01 17:26:26.666 [error] Error: Cannot call write after a stream was destroyed
+	at _write (node:internal/streams/writable:493:11)
+	at Writable.write (node:internal/streams/writable:512:10)
+	at /home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:84:14265
+	at new Promise (<anonymous>)
+	at YM.write (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:84:14186)
+	at JT.doWrite (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:56:1627)
+	at /home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:56:1526
+2026-10-01 17:26:26.666 [error] Error: Client is not running and can't be stopped. It's current state is: starting
+	at h2.shutdown (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:92:8500)
+	at h2.stop (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:92:8079)
+	at h2.stop (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:95:31201)
+	at h2.doInitialize (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:92:7904)
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+	at async h2.start (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:92:4473)
+2026-10-01 17:26:26.672 [error] Error: Cannot call write after a stream was destroyed
+	at _write (node:internal/streams/writable:493:11)
+	at Writable.write (node:internal/streams/writable:512:10)
+	at /home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:84:14265
+	at new Promise (<anonymous>)
+	at YM.write (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:84:14186)
+	at JT.doWrite (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:56:1627)
+	at /home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:56:1526
+2026-10-01 17:26:26.672 [error] Error: Client is not running and can't be stopped. It's current state is: starting
+	at h2.shutdown (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:92:8500)
+	at h2.stop (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:92:8079)
+	at h2.stop (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:95:31201)
+	at h2.doInitialize (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:92:7904)
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+	at async h2.start (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:92:4473)
+2026-10-01 17:26:26.678 [error] Error: write EPIPE
+	at afterWriteDispatched (node:internal/stream_base_commons:159:15)
+	at writeGeneric (node:internal/stream_base_commons:150:3)
+	at Socket._writeGeneric (node:net:1258:11)
+	at Socket._write (node:net:1270:8)
+	at writeOrBuffer (node:internal/streams/writable:574:12)
+	at _write (node:internal/streams/writable:503:10)
+	at Writable.write (node:internal/streams/writable:512:10)
+	at /home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:84:14265
+	at new Promise (<anonymous>)
+	at YM.write (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:84:14186)
+	at JT.doWrite (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:56:1627)
+	at /home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:56:1526
+2026-10-01 17:26:26.679 [error] Error: Client is not running and can't be stopped. It's current state is: starting
+	at h2.shutdown (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:92:8500)
+	at h2.stop (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:92:8079)
+	at h2.stop (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:95:31201)
+	at h2.doInitialize (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:92:7904)
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+	at async h2.start (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:92:4473)
+2026-10-01 17:26:26.691 [error] Error: Cannot call write after a stream was destroyed
+	at _write (node:internal/streams/writable:493:11)
+	at Writable.write (node:internal/streams/writable:512:10)
+	at /home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:84:14265
+	at new Promise (<anonymous>)
+	at YM.write (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:84:14186)
+	at JT.doWrite (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:56:1627)
+	at /home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:56:1526
+2026-10-01 17:26:26.691 [error] Error: Client is not running and can't be stopped. It's current state is: starting
+	at h2.shutdown (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:92:8500)
+	at h2.stop (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:92:8079)
+	at h2.stop (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:95:31201)
+	at h2.doInitialize (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:92:7904)
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+	at async h2.start (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:92:4473)
+2026-10-01 17:59:38.303 [error] Error: write EPIPE
+	at afterWriteDispatched (node:internal/stream_base_commons:159:15)
+	at writeGeneric (node:internal/stream_base_commons:150:3)
+	at Socket._writeGeneric (node:net:1258:11)
+	at Socket._write (node:net:1270:8)
+	at writeOrBuffer (node:internal/streams/writable:574:12)
+	at _write (node:internal/streams/writable:503:10)
+	at Writable.write (node:internal/streams/writable:512:10)
+	at /home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:84:14265
+	at new Promise (<anonymous>)
+	at YM.write (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:84:14186)
+	at JT.doWrite (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:56:1627)
+	at /home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:56:1526
+2026-10-01 17:59:38.304 [error] Error: Client is not running and can't be stopped. It's current state is: starting
+	at h2.shutdown (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:92:8500)
+	at h2.stop (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:92:8079)
+	at h2.stop (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:95:31201)
+	at h2.doInitialize (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:92:7904)
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+	at async h2.start (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:92:4473)
+2026-10-01 17:59:38.309 [error] Error: Cannot call write after a stream was destroyed
+	at _write (node:internal/streams/writable:493:11)
+	at Writable.write (node:internal/streams/writable:512:10)
+	at /home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:84:14265
+	at new Promise (<anonymous>)
+	at YM.write (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:84:14186)
+	at JT.doWrite (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:56:1627)
+	at /home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:56:1526
+2026-10-01 17:59:38.309 [error] Error: Client is not running and can't be stopped. It's current state is: starting
+	at h2.shutdown (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:92:8500)
+	at h2.stop (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:92:8079)
+	at h2.stop (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:95:31201)
+	at h2.doInitialize (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:92:7904)
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+	at async h2.start (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:92:4473)
+2026-10-01 17:59:38.314 [error] Error: write EPIPE
+	at afterWriteDispatched (node:internal/stream_base_commons:159:15)
+	at writeGeneric (node:internal/stream_base_commons:150:3)
+	at Socket._writeGeneric (node:net:1258:11)
+	at Socket._write (node:net:1270:8)
+	at writeOrBuffer (node:internal/streams/writable:574:12)
+	at _write (node:internal/streams/writable:503:10)
+	at Writable.write (node:internal/streams/writable:512:10)
+	at /home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:84:14265
+	at new Promise (<anonymous>)
+	at YM.write (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:84:14186)
+	at JT.doWrite (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:56:1627)
+	at /home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:56:1526
+2026-10-01 17:59:38.314 [error] Error: Client is not running and can't be stopped. It's current state is: starting
+	at h2.shutdown (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:92:8500)
+	at h2.stop (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:92:8079)
+	at h2.stop (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:95:31201)
+	at h2.doInitialize (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:92:7904)
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+	at async h2.start (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:92:4473)
+2026-10-01 17:59:38.318 [error] Error: Cannot call write after a stream was destroyed
+	at _write (node:internal/streams/writable:493:11)
+	at Writable.write (node:internal/streams/writable:512:10)
+	at /home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:84:14265
+	at new Promise (<anonymous>)
+	at YM.write (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:84:14186)
+	at JT.doWrite (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:56:1627)
+	at /home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:56:1526
+2026-10-01 17:59:38.318 [error] Error: Client is not running and can't be stopped. It's current state is: starting
+	at h2.shutdown (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:92:8500)
+	at h2.stop (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:92:8079)
+	at h2.stop (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:95:31201)
+	at h2.doInitialize (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:92:7904)
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+	at async h2.start (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:92:4473)
+2026-10-01 17:59:38.323 [error] Error: write EPIPE
+	at afterWriteDispatched (node:internal/stream_base_commons:159:15)
+	at writeGeneric (node:internal/stream_base_commons:150:3)
+	at Socket._writeGeneric (node:net:1258:11)
+	at Socket._write (node:net:1270:8)
+	at writeOrBuffer (node:internal/streams/writable:574:12)
+	at _write (node:internal/streams/writable:503:10)
+	at Writable.write (node:internal/streams/writable:512:10)
+	at /home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:84:14265
+	at new Promise (<anonymous>)
+	at YM.write (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:84:14186)
+	at JT.doWrite (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:56:1627)
+	at /home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:56:1526
+2026-10-01 17:59:38.323 [error] Error: Client is not running and can't be stopped. It's current state is: starting
+	at h2.shutdown (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:92:8500)
+	at h2.stop (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:92:8079)
+	at h2.stop (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:95:31201)
+	at h2.doInitialize (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:92:7904)
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+	at async h2.start (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:92:4473)
+2026-10-01 18:06:41.561 [info] Extension host terminating: received terminate message from renderer
+2026-10-01 18:06:41.588 [error] An error occurred when deactivating the extension 'theqtcompany.qt-ui':
+2026-10-01 18:06:41.588 [error] TypeError: V0[t] is not a function
+	at Pv.log (/home/radio/.vscode/extensions/theqtcompany.qt-ui-1.16.0/out/extension.js:32:6420)
+	at Pv.verbose (/home/radio/.vscode/extensions/theqtcompany.qt-ui-1.16.0/out/extension.js:32:6612)
+	at e.stop (/home/radio/.vscode/extensions/theqtcompany.qt-ui-1.16.0/out/extension.js:56:448)
+	at e.dispose (/home/radio/.vscode/extensions/theqtcompany.qt-ui-1.16.0/out/extension.js:56:592)
+	at l1.dispose (/home/radio/.vscode/extensions/theqtcompany.qt-ui-1.16.0/out/extension.js:56:1124)
+	at e.dispose (/home/radio/.vscode/extensions/theqtcompany.qt-ui-1.16.0/out/extension.js:32:8824)
+	at Object.DZ (/home/radio/.vscode/extensions/theqtcompany.qt-ui-1.16.0/out/extension.js:80:461)
+	at t_._deactivate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:168:14629)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:168:12156
+	at Array.map (<anonymous>)
+	at t_._deactivateAll (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:168:12144)
+	at t_.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:168:12495)
+	at i.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:170:1072)
+	at ya (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:473:11797)
+	at $p.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:473:9939)
+	at T._deliver (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:28:3617)
+	at T.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:28:3935)
+	at ws.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:8627)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:473:8171)
+	at MessagePortMain.emit (node:events:514:28)
+	at Object.emit (node:electron/js2c/utility_init:2:2934)
+2026-10-01 18:06:41.592 [info] Extension host with pid 20486 exiting with code 0
+2026-10-01 18:06:41.895 [info] Extension host with pid 26558 started
+2026-10-01 18:06:41.895 [info] Skipping acquiring lock for /home/radio/.config/Code/User/workspaceStorage/558cb550cc9cb496fdca5b25e8419c13.
+2026-10-01 18:06:41.903 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-10-01 18:06:41.919 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-10-01 18:06:41.928 [info] ExtensionService#_doActivateExtension theqtcompany.qt-core, startup: false, activationEvent: 'onWebviewPanel:ViewTypeWelcomePage'
+2026-10-01 18:06:42.123 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-10-01 18:06:42.126 [info] ExtensionService#_doActivateExtension mhutchie.git-graph, startup: true, activationEvent: '*'
+2026-10-01 18:06:42.203 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-10-01 18:06:42.248 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-10-01 18:06:42.313 [info] ExtensionService#_doActivateExtension theqtcompany.qt-qml, startup: true, activationEvent: 'workspaceContains:**/*.qml,**/*.qmlproject,**/*.qtd,**/*.qzt'
+2026-10-01 18:06:42.406 [info] ExtensionService#_doActivateExtension theqtcompany.qt-ui, startup: true, activationEvent: 'workspaceContains:**/*.ui'
+2026-10-01 18:06:42.479 [info] Eager extensions activated
+2026-10-01 18:06:42.562 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-10-01 18:06:42.563 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-10-01 18:06:42.573 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2026-10-01 18:06:42.579 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2026-10-01 18:06:42.587 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2026-10-01 18:06:43.562 [error] Error: Cannot call write after a stream was destroyed
+	at _write (node:internal/streams/writable:493:11)
+	at Writable.write (node:internal/streams/writable:512:10)
+	at /home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:84:14265
+	at new Promise (<anonymous>)
+	at YM.write (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:84:14186)
+	at JT.doWrite (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:56:1627)
+	at /home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:56:1526
+2026-10-01 18:06:43.563 [error] Error: Client is not running and can't be stopped. It's current state is: starting
+	at h2.shutdown (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:92:8500)
+	at h2.stop (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:92:8079)
+	at h2.stop (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:95:31201)
+	at h2.doInitialize (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:92:7904)
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+	at async h2.start (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:92:4473)
+2026-10-01 18:06:43.597 [error] Error: write EPIPE
+	at afterWriteDispatched (node:internal/stream_base_commons:159:15)
+	at writeGeneric (node:internal/stream_base_commons:150:3)
+	at Socket._writeGeneric (node:net:1258:11)
+	at Socket._write (node:net:1270:8)
+	at writeOrBuffer (node:internal/streams/writable:574:12)
+	at _write (node:internal/streams/writable:503:10)
+	at Writable.write (node:internal/streams/writable:512:10)
+	at /home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:84:14265
+	at new Promise (<anonymous>)
+	at YM.write (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:84:14186)
+	at JT.doWrite (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:56:1627)
+	at /home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:56:1526
+2026-10-01 18:06:43.597 [error] Error: Client is not running and can't be stopped. It's current state is: starting
+	at h2.shutdown (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:92:8500)
+	at h2.stop (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:92:8079)
+	at h2.stop (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:95:31201)
+	at h2.doInitialize (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:92:7904)
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+	at async h2.start (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:92:4473)
+2026-10-01 18:06:43.644 [error] Error: Cannot call write after a stream was destroyed
+	at _write (node:internal/streams/writable:493:11)
+	at Writable.write (node:internal/streams/writable:512:10)
+	at /home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:84:14265
+	at new Promise (<anonymous>)
+	at YM.write (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:84:14186)
+	at JT.doWrite (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:56:1627)
+	at /home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:56:1526
+2026-10-01 18:06:43.644 [error] Error: Client is not running and can't be stopped. It's current state is: starting
+	at h2.shutdown (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:92:8500)
+	at h2.stop (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:92:8079)
+	at h2.stop (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:95:31201)
+	at h2.doInitialize (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:92:7904)
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+	at async h2.start (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:92:4473)
+2026-10-01 18:06:43.650 [error] Error: write EPIPE
+	at afterWriteDispatched (node:internal/stream_base_commons:159:15)
+	at writeGeneric (node:internal/stream_base_commons:150:3)
+	at Socket._writeGeneric (node:net:1258:11)
+	at Socket._write (node:net:1270:8)
+	at writeOrBuffer (node:internal/streams/writable:574:12)
+	at _write (node:internal/streams/writable:503:10)
+	at Writable.write (node:internal/streams/writable:512:10)
+	at /home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:84:14265
+	at new Promise (<anonymous>)
+	at YM.write (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:84:14186)
+	at JT.doWrite (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:56:1627)
+	at /home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:56:1526
+2026-10-01 18:06:43.650 [error] Error: Client is not running and can't be stopped. It's current state is: starting
+	at h2.shutdown (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:92:8500)
+	at h2.stop (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:92:8079)
+	at h2.stop (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:95:31201)
+	at h2.doInitialize (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:92:7904)
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+	at async h2.start (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:92:4473)
+2026-10-01 18:06:43.655 [error] Error: Cannot call write after a stream was destroyed
+	at _write (node:internal/streams/writable:493:11)
+	at Writable.write (node:internal/streams/writable:512:10)
+	at /home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:84:14265
+	at new Promise (<anonymous>)
+	at YM.write (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:84:14186)
+	at JT.doWrite (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:56:1627)
+	at /home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:56:1526
+2026-10-01 18:06:43.655 [error] Error: Client is not running and can't be stopped. It's current state is: starting
+	at h2.shutdown (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:92:8500)
+	at h2.stop (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:92:8079)
+	at h2.stop (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:95:31201)
+	at h2.doInitialize (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:92:7904)
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+	at async h2.start (/home/radio/.vscode/extensions/theqtcompany.qt-qml-1.16.0/out/extension.js:92:4473)
+2026-10-01 18:06:51.098 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-10-01 18:06:51.106 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-10-01 18:06:51.148 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-10-01 18:22:38.457 [info] Extension host terminating: renderer closed the MessagePort

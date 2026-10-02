@@ -1,0 +1,19 @@
+2026-09-27 15:48:23.693 [info] [RemoteAgentHost] Reconciling: desired=[], current=[]
+2026-09-27 15:48:24.047 [info] Started local extension host with pid 121055.
+2026-09-27 15:48:24.965 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-27 15:48:25.226 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-09-27 15:48:26.701 [info] [perf] Render performance baseline is 12ms
+2026-09-27 15:48:27.082 [error] [Extension Host] (node:121055) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-09-27 15:48:29.234 [info] [RemoteAgentHost] Reconciling: desired=[], current=[]
+2026-09-27 15:48:29.358 [info] Started local extension host with pid 121305.
+2026-09-27 15:48:29.899 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-27 15:48:30.150 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-09-27 15:48:31.971 [info] [perf] Render performance baseline is 14ms
+2026-09-27 15:48:32.118 [error] [Extension Host] (node:121305) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-09-27 15:48:34.899 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-27 15:56:50.423 [error] Error: spawn xterm ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:287:19)
+    at onErrorNT (node:internal/child_process:525:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)

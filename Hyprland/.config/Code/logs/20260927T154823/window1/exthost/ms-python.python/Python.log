@@ -1,0 +1,15 @@
+2026-09-27 15:49:20.133 [info] Environment discovery is managed by the Python Environments extension (ms-python.vscode-python-envs). Check the "Python Environments" output channel for environment-specific logs.
+2026-09-27 15:49:20.154 [info] [test-by-project] Activating project-based testing mode
+2026-09-27 15:49:20.154 [info] [test-by-project] Discovering projects for workspace: /home/radio/.config/waybar
+2026-09-27 15:49:20.155 [info] Native locator: Refresh started
+2026-09-27 15:49:20.155 [info] [test-by-project] Found 1 total Python projects from API
+2026-09-27 15:49:20.155 [info] [test-by-project] Filtered to 1 projects in workspace
+2026-09-27 15:49:20.155 [info] [test-by-project] Creating adapter for: waybar at file:///home/radio/.config/waybar
+2026-09-27 15:49:20.214 [info] > pyenv which python
+2026-09-27 15:49:20.214 [info] cwd: .
+2026-09-27 15:49:20.264 [info] Active interpreter [/home/radio/.config/waybar]:  /usr/bin/python
+2026-09-27 15:49:20.268 [info] [test-by-project] Registered 1 project(s) for /home/radio/.config/waybar
+2026-09-27 15:49:20.269 [info] [test-by-project] Activated 1 project(s) for /home/radio/.config/waybar
+2026-09-27 15:49:20.269 [info] [test-by-project] Subscribed to Python project changes
+2026-09-27 15:49:20.336 [info] Native locator: Refresh finished in 182 ms
+2026-09-27 15:49:21.296 [info] Starting Pylance language server.

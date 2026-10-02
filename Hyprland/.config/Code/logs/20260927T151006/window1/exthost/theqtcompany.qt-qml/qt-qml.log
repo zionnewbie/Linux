@@ -1,0 +1,15 @@
+2026-09-27 15:10:08.137 [info] [installer] Installer initialized with path: /home/radio/.config/Code/User/globalStorage/theqtcompany.qt-qml/qmlls
+2026-09-27 15:10:08.137 [info] [project] Creating project:/home/radio/.config/quickshell
+2026-09-27 15:10:08.137 [info] [qmlls-queue] Enqueueing start operation
+2026-09-27 15:10:08.137 [info] [qmlls] Fetching release information
+2026-09-27 15:10:08.137 [info] [qmlls-queue] Processing start operation
+2026-09-27 15:10:08.137 [info] [qmlls] Starting QML Language Server with:-E
+2026-09-27 15:10:08.137 [info] [qmlls-queue] Completed start operation
+2026-09-27 15:10:08.137 [error] [qmlls] LanguageClient has failed to start with /home/radio/.config/Code/User/globalStorage/theqtcompany.qt-qml/qmlls/files/qmlls
+2026-09-27 15:10:08.239 [info] [installer] Fetched release info from: https://qtccache.qt.io/QMLLS/LatestRelease
+2026-09-27 15:10:08.243 [info] [installer] Selected asset: qmllanguageserver-linux-x64-0.8.zip
+2026-09-27 15:10:08.248 [info] [qmlls] Status Check: Found, but not executable
+2026-09-27 15:23:25.584 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder "quickshell"
+2026-09-27 15:23:46.497 [info] [extension] Deactivating qt-qml
+2026-09-27 15:23:46.497 [info] [project] Disposing project:/home/radio/.config/quickshell
+2026-09-27 15:23:46.498 [warning] [qmlls] Canceled

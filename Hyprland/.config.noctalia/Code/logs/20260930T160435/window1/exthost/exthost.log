@@ -1,0 +1,8 @@
+2026-09-30 16:04:37.064 [info] Extension host with pid 21814 started
+2026-09-30 16:04:37.065 [info] Skipping acquiring lock for /home/radio/.config/Code/User/workspaceStorage/e0685df4962b20797b629574ff3a4808.
+2026-09-30 16:04:37.254 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-09-30 16:04:37.276 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-09-30 16:04:37.385 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-09-30 16:04:37.388 [info] ExtensionService#_doActivateExtension mhutchie.git-graph, startup: true, activationEvent: '*'
+2026-09-30 16:04:37.409 [info] Extension host terminating: received terminate message from renderer
+2026-09-30 16:04:37.413 [info] Extension host with pid 21814 exiting with code 0

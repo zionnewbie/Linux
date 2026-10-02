@@ -1,0 +1,3 @@
+2026-09-30 05:12:27.201 [info] [McpGatewayService] Initialized
+2026-09-30 05:12:34.701 [info] [McpGateway][Channel] Client disconnected: window:1, cleaning up gateways
+2026-09-30 05:17:38.418 [info] [McpGateway][Channel] Client disconnected: window:1, cleaning up gateways

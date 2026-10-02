@@ -1,0 +1,8 @@
+2026-09-27 10:32:46.873 [info] [RemoteAgentHost] Reconciling: desired=[], current=[]
+2026-09-27 10:32:47.223 [info] Started local extension host with pid 53584.
+2026-09-27 10:32:48.194 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-27 10:32:48.438 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-09-27 10:32:49.899 [info] [perf] Render performance baseline is 15ms
+2026-09-27 10:32:51.001 [error] [Extension Host] (node:53584) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-09-27 10:32:53.197 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false

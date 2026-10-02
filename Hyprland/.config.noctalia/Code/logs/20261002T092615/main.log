@@ -1,0 +1,10 @@
+2026-10-02 09:26:15.167 [info] [node-compile-cache] main: packaged cache inactive (status: disabled, configured: /usr/share/code/resources/app/node-compile-cache/main, active: none)
+2026-10-02 09:26:15.171 [info] StorageMainService: creating application shared storage
+2026-10-02 09:26:15.227 [info] [shared storage] Creating shared storage database at '/home/radio/.vscode-shared/sharedStorage/state.vscdb' (wasCreated: false)
+2026-10-02 09:26:15.228 [info] [shared storage] Initializing fallback application storage (path: /home/radio/.config/Code/User/globalStorage/state.vscdb)
+2026-10-02 09:26:15.249 [info] [shared storage] Fallback application storage initialized with 98 items
+2026-10-02 09:26:16.061 [info] update#setState idle
+2026-10-02 09:26:30.775 [info] Extension host with pid 9262 exited with code: 0, signal: unknown.
+2026-10-02 09:26:46.063 [info] update#setState checking for updates
+2026-10-02 09:26:46.129 [info] update#setState idle
+2026-10-02 09:27:11.884 [info] Extension host with pid 10458 exited with code: 0, signal: unknown.

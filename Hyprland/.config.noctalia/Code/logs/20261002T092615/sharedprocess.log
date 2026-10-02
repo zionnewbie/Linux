@@ -1,0 +1,6 @@
+2026-10-02 09:26:16.691 [info] Marked extension as removed ms-vscode.cmake-tools-1.24.42
+2026-10-02 09:26:16.691 [info] Marked extension as removed ms-vscode.cpp-devtools-0.6.18
+2026-10-02 09:26:16.691 [info] Marked extension as removed theqtcompany.qt-cpp-1.16.0
+2026-10-02 09:26:16.815 [info] Deleted marked for removal extension from disk theqtcompany.qt-cpp /home/radio/.vscode/extensions/theqtcompany.qt-cpp-1.16.0
+2026-10-02 09:26:16.819 [info] Deleted marked for removal extension from disk ms-vscode.cmake-tools /home/radio/.vscode/extensions/ms-vscode.cmake-tools-1.24.42
+2026-10-02 09:26:16.819 [info] Deleted marked for removal extension from disk ms-vscode.cpp-devtools /home/radio/.vscode/extensions/ms-vscode.cpp-devtools-0.6.18

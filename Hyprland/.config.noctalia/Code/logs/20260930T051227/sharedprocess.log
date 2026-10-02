@@ -1,0 +1,72 @@
+2026-09-30 05:12:27.978 [error] Error: Unable to read file '/home/radio/.vscode/extensions/noctalia.noctaliatheme-0.0.5/package.json' (Error: Unable to resolve nonexistent file '/home/radio/.vscode/extensions/noctalia.noctaliatheme-0.0.5/package.json')
+    at co.restoreReadError (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:79:110672)
+    at co.doReadFileStream (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:79:110455)
+    at async co.doReadFile (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:79:109719)
+    at async Ha.scanExtensionManifest (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:79:54817)
+    at async Ha.scanExtension (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:79:53246)
+    at async Promise.all (index 12)
+    at async Ha.scanExtensionsFromLocation (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:79:51504)
+    at async Dl.scanAllUserExtensions (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:79:42557)
+    at async Od.scanAllUserExtensions (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:79:85707)
+    at async em.deleteExtensionsNotInProfiles (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:79:72411)
+    at async em.initialize (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:79:69235)
+2026-09-30 05:12:27.981 [error] Error: Unable to read file '/home/radio/.vscode/extensions/noctalia.noctaliatheme-0.0.5/package.json' (Error: Unable to resolve nonexistent file '/home/radio/.vscode/extensions/noctalia.noctaliatheme-0.0.5/package.json')
+    at co.restoreReadError (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:79:110672)
+    at co.doReadFileStream (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:79:110455)
+    at async co.doReadFile (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:79:109719)
+    at async Ha.scanExtensionManifest (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:79:54817)
+    at async Ha.scanExtension (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:79:53246)
+    at async Promise.all (index 12)
+    at async Ha.scanExtensionsFromLocation (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:79:51504)
+    at async Dl.scanAllUserExtensions (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:79:42557)
+    at async Od.removeStaleAutoUpdateBuiltinExtensions (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:79:94021)
+    at async Od.cleanUp (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:79:84797)
+    at async ja.cleanUp (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:79:77605)
+2026-09-30 05:12:28.062 [info] Marked extension as removed ms-python.python-2026.4.0-linux-x64
+2026-09-30 05:12:28.064 [error] Error: Unable to read file '/home/radio/.vscode/extensions/noctalia.noctaliatheme-0.0.5/package.json' (Error: Unable to resolve nonexistent file '/home/radio/.vscode/extensions/noctalia.noctaliatheme-0.0.5/package.json')
+    at co.restoreReadError (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:79:110672)
+    at co.doReadFileStream (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:79:110455)
+    at async co.doReadFile (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:79:109719)
+    at async Ha.scanExtensionManifest (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:79:54817)
+    at async Ha.scanExtension (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:79:53246)
+    at async Promise.all (index 12)
+    at async Ha.scanExtensionsFromLocation (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:79:51504)
+    at async Dl.scanAllUserExtensions (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:79:42557)
+    at async Od.scanAllUserExtensions (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:79:85707)
+    at async Od.deleteExtensionsMarkedForRemoval (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:79:95023)
+    at async Od.cleanUp (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:79:84849)
+    at async ja.cleanUp (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:79:77605)
+2026-09-30 05:12:28.138 [info] Deleted marked for removal extension from disk ms-python.python /home/radio/.vscode/extensions/ms-python.python-2026.4.0-linux-x64
+2026-09-30 05:12:28.140 [error] Error: Unable to read file '/home/radio/.vscode/extensions/noctalia.noctaliatheme-0.0.5/package.json' (Error: Unable to resolve nonexistent file '/home/radio/.vscode/extensions/noctalia.noctaliatheme-0.0.5/package.json')
+    at co.restoreReadError (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:79:110672)
+    at co.doReadFileStream (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:79:110455)
+    at async co.doReadFile (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:79:109719)
+    at async Ha.scanExtensionManifest (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:79:54817)
+    at async Ha.scanExtension (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:79:53246)
+    at async Promise.all (index 10)
+    at async Ha.scanExtensionsFromLocation (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:79:51504)
+    at async Dl.scanAllUserExtensions (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:79:42557)
+    at async Od.initializeExtensionSize (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:79:93561)
+    at async Od.cleanUp (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:79:84895)
+    at async ja.cleanUp (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:79:77605)
+2026-09-30 05:15:52.196 [info] Getting Manifest... noctalia.noctaliatheme
+2026-09-30 05:15:52.282 [info] Installing extension: noctalia.noctaliatheme {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/radio/.vscode/extensions/extensions.json","path":"/home/radio/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isBuiltin":false,"isApplicationScoped":false,"productVersion":{"version":"1.139.1","date":"2026-09-25T03:40:57Z"}}
+2026-09-30 05:15:54.759 [info] Extension signature verification result for noctalia.noctaliatheme: Success. Internal Code: 0. Executed: true. Duration: 432ms.
+2026-09-30 05:15:54.763 [error] Error: Unable to read file '/home/radio/.vscode/extensions/noctalia.noctaliatheme-0.0.5/package.json' (Error: Unable to resolve nonexistent file '/home/radio/.vscode/extensions/noctalia.noctaliatheme-0.0.5/package.json')
+    at co.restoreReadError (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:79:110672)
+    at co.doReadFileStream (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:79:110455)
+    at async co.doReadFile (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:79:109719)
+    at async Ha.scanExtensionManifest (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:79:54817)
+    at async Ha.scanExtension (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:79:53246)
+    at async Dl.scanExistingExtension (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:79:43512)
+    at async Od.scanLocalExtension (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:79:92192)
+    at async Od.extractUserExtension (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:79:86348)
+    at async ja.downloadAndExtractGalleryExtension (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:79:79298)
+2026-09-30 05:15:54.763 [warning] Error while scanning the existing extension at /home/radio/.vscode/extensions/noctalia.noctaliatheme-0.0.5. Deleting the existing extension and extracting it. Cannot read the extension from /home/radio/.vscode/extensions/noctalia.noctaliatheme-0.0.5
+2026-09-30 05:15:54.764 [info] Deleted removeExisting extension from disk noctalia.noctaliatheme /home/radio/.vscode/extensions/noctalia.noctaliatheme-0.0.5
+2026-09-30 05:15:54.768 [info] Extracted extension to file:///home/radio/.vscode/extensions/noctalia.noctaliatheme-0.0.5: noctalia.noctaliatheme
+2026-09-30 05:15:54.770 [info] Renamed to /home/radio/.vscode/extensions/noctalia.noctaliatheme-0.0.5
+2026-09-30 05:15:54.781 [info] Extension installed successfully: noctalia.noctaliatheme vscode-userdata:/home/radio/.vscode/extensions/extensions.json
+2026-09-30 05:16:07.125 [info] Uninstalling extension from the profile: noctalia.noctaliatheme@0.0.5 vscode-userdata:/home/radio/.vscode/extensions/extensions.json
+2026-09-30 05:16:07.157 [info] Marked extension as removed noctalia.noctaliatheme-0.0.5
+2026-09-30 05:16:07.421 [info] Successfully uninstalled extension from the profile noctalia.noctaliatheme@0.0.5 vscode-userdata:/home/radio/.vscode/extensions/extensions.json

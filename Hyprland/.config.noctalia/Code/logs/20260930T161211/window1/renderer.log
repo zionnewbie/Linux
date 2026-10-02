@@ -1,0 +1,47 @@
+2026-09-30 16:12:12.233 [info] [RemoteAgentHost] Reconciling: desired=[], current=[]
+2026-09-30 16:12:12.500 [info] Started local extension host with pid 50646.
+2026-09-30 16:12:13.296 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-30 16:12:13.666 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-09-30 16:12:13.681 [error] [Extension Host] (node:50646) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-09-30 16:12:15.234 [info] [perf] Render performance baseline is 14ms
+2026-09-30 16:12:18.297 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-30 16:12:21.098 [error] [Extension Host] Sending request failed.
+2026-09-30 16:12:21.115 [error] [Extension Host] Error: Unexpected SIGPIPE
+	at process.<anonymous> (file:///usr/share/code/resources/app/out/bootstrap-fork.js:4:1691)
+	at process.emit (node:events:514:28)
+2026-09-30 16:12:21.118 [error] [Extension Host] Sending request failed.
+2026-09-30 16:12:21.131 [error] [Extension Host] Sending request failed.
+2026-09-30 16:12:21.133 [error] [Extension Host] Sending request failed.
+2026-09-30 16:12:21.134 [error] [Extension Host] Sending request failed.
+2026-09-30 16:12:22.102 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-30 16:13:37.336 [info] [RemoteAgentHost] Reconciling: desired=[], current=[]
+2026-09-30 16:13:37.451 [info] Started local extension host with pid 54229.
+2026-09-30 16:13:37.903 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-30 16:13:38.032 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-09-30 16:13:40.172 [info] [perf] Render performance baseline is 17ms
+2026-09-30 16:13:43.072 [info] [RemoteAgentHost] Reconciling: desired=[], current=[]
+2026-09-30 16:13:43.187 [info] Started local extension host with pid 55646.
+2026-09-30 16:13:43.660 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-30 16:13:43.872 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-09-30 16:13:45.831 [info] [perf] Render performance baseline is 12ms
+2026-09-30 16:13:47.275 [error] [Extension Host] (node:55646) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-09-30 16:13:47.298 [error] [Extension Host] Sending request failed.
+2026-09-30 16:13:47.381 [error] [Extension Host] Error: Unexpected SIGPIPE
+	at process.<anonymous> (file:///usr/share/code/resources/app/out/bootstrap-fork.js:4:1691)
+	at process.emit (node:events:514:28)
+2026-09-30 16:13:47.382 [error] [Extension Host] Sending request failed.
+2026-09-30 16:13:47.407 [error] [Extension Host] Sending request failed.
+2026-09-30 16:13:47.408 [error] [Extension Host] Sending request failed.
+2026-09-30 16:13:47.415 [error] [Extension Host] Sending request failed.
+2026-09-30 16:13:48.294 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-30 16:13:48.662 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-30 16:17:14.344 [info] [RemoteAgentHost] Reconciling: desired=[], current=[]
+2026-09-30 16:17:14.474 [info] Started local extension host with pid 57955.
+2026-09-30 16:17:15.086 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-30 16:17:15.255 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-09-30 16:17:17.178 [info] [perf] Render performance baseline is 20ms
+2026-09-30 16:17:17.341 [error] [Extension Host] (node:57955) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-09-30 16:17:20.086 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false

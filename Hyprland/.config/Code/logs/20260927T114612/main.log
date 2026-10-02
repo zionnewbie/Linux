@@ -1,0 +1,13 @@
+2026-09-27 11:46:12.882 [info] StorageMainService: creating application shared storage
+2026-09-27 11:46:12.920 [info] [shared storage] Creating shared storage database at '/home/radio/.vscode-shared/sharedStorage/state.vscdb' (wasCreated: false)
+2026-09-27 11:46:12.920 [info] [shared storage] Initializing fallback application storage (path: /home/radio/.config/Code/User/globalStorage/state.vscdb)
+2026-09-27 11:46:12.939 [info] [shared storage] Fallback application storage initialized with 108 items
+2026-09-27 11:46:13.307 [info] update#setState idle
+2026-09-27 11:46:17.232 [info] Extension host with pid 80996 exited with code: 0, signal: unknown.
+2026-09-27 11:46:43.308 [info] update#setState checking for updates
+2026-09-27 11:46:43.372 [info] update#setState idle
+2026-09-27 12:46:43.310 [info] update#setState checking for updates
+2026-09-27 12:46:43.455 [info] update#setState idle
+2026-09-27 13:46:43.318 [info] update#setState checking for updates
+2026-09-27 13:46:43.441 [info] update#setState idle
+2026-09-27 14:15:13.123 [info] Extension host with pid 81185 exited with code: 0, signal: unknown.

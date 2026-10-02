@@ -1,0 +1,192 @@
+[
+    {
+        "position": "top",
+        "height": 42,
+        "spacing": 10,
+        "margin-top": 0,
+        "margin-bottom": 0,
+        "margin-left": 0,
+        "margin-right": 0,
+        "modules-left": [
+            "clock",
+            "hyprland/workspaces",
+            "mpris"
+        ],
+        "modules-center": [
+            "hyprland/window"
+        ],
+        "modules-right": [
+            "tray",
+            "pulseaudio",
+            "group/Connect",
+            "group/Sysinfo",
+            "custom/updates",
+            "battery",
+            "custom/power"
+        ],
+        "hyprland/workspaces": {
+            "format": "{id}",
+            "on-scroll-up": "hyprctl dispatch workspace e-1",
+            "on-scroll-down": "hyprctl dispatch workspace e+1",
+            "anim-color-1": "#89b4fa",
+            "anim-color-2": "#cba6f7",
+            "anim-duration": 3,
+            "button-radius": 5,
+            "button-pad-v": 0,
+            "button-pad-h": 4,
+            "button-minw": 35,
+            "_inverted": false
+        },
+        "hyprland/window": {
+            "format": "{}",
+            "max-length": 60,
+            "separate-outputs": true,
+            "_inverted": false
+        },
+        "clock": {
+            "format": "  {:%H:%M}",
+            "tooltip-format": "{:%A, %d %B %Y\n%H:%M:%S}",
+            "timezone": "Asia/Kolkata",
+            "locale": "en_IN.UTF-8",
+            "interval": 1,
+            "on-click": "",
+            "tooltip": true,
+            "_inverted": false
+        },
+        "cpu": {
+            "format": "󰍛 {usage}%",
+            "tooltip": true,
+            "interval": 2,
+            "_inverted": false
+        },
+        "memory": {
+            "format": "󰾆 {used:0.1f}G",
+            "tooltip-format": "RAM: {used:0.1f}G / {total:0.1f}G\nSwap: {swapUsed:0.1f}G / {swapTotal:0.1f}G",
+            "interval": 5,
+            "_inverted": false
+        },
+        "temperature": {
+            "format": " {temperatureC}°C",
+            "format-critical": " {temperatureC}°C",
+            "critical-threshold": 80,
+            "interval": 5,
+            "tooltip": true,
+            "_inverted": false
+        },
+        "disk": {
+            "format": "<span font='JetBrainsMono Nerd Font Mono 12'>󰋊</span> {percentage_used}%",
+            "path": "/",
+            "interval": 30,
+            "tooltip": true,
+            "_inverted": false
+        },
+        "network": {
+            "format-wifi": "󰖩 {signalStrength}%",
+            "format-ethernet": "󰈀 {ipaddr}",
+            "format-disconnected": "󰖪 Sin red",
+            "tooltip-format": "{ifname}: {ipaddr}/{cidr}\n{essid} ({signalStrength}%)\n↑ {bandwidthUpBits}  ↓ {bandwidthDownBits}",
+            "on-click": "nm-connection-editor",
+            "interval": 5,
+            "_inverted": false
+        },
+        "bluetooth": {
+            "format": "󰂯",
+            "format-disabled": "󰂲",
+            "format-connected": "󰂱 {device_alias}",
+            "on-click": "/usr/bin/blueman-manager",
+            "interval": 30,
+            "tooltip": true,
+            "_inverted": false
+        },
+        "pulseaudio": {
+            "format": "{icon} {volume}%",
+            "format-muted": "󰝟 mute",
+            "format-icons": {
+                "default": [
+                    "󰕿",
+                    "󰖀",
+                    "󰕾"
+                ]
+            },
+            "on-click": "pavucontrol",
+            "scroll-step": 5,
+            "_inverted": false
+        },
+        "battery": {
+            "format": "{icon} {capacity}%",
+            "format-icons": [
+                "󰁺",
+                "󰁼",
+                "󰁾",
+                "󰂀",
+                "󰂂",
+                "󰁹"
+            ],
+            "format-charging": "󰂄 {capacity}%",
+            "format-plugged": "󰚥 {capacity}%",
+            "states": {
+                "warning": 30,
+                "critical": 15
+            },
+            "_inverted": false
+        },
+        "backlight": {
+            "format": "{icon} {percent}%",
+            "on-scroll-up": "brightnessctl set 5%+",
+            "on-scroll-down": "brightnessctl set 5%-",
+            "_inverted": false
+        },
+        "mpris": {
+            "format": "{player_icon} {title}",
+            "format-paused": "{player_icon}  {title}",
+            "interval": 1,
+            "max-length": 40,
+            "_inverted": false
+        },
+        "tray": {
+            "spacing": 8,
+            "icon-size": 18,
+            "_inverted": false
+        },
+        "custom/updates": {
+            "exec": "count=$(checkupdates 2>/dev/null | wc -l); [ \"$count\" -gt 0 ] && echo '{\"text\":\"󰚰 '\"$count\"'\",\"class\":\"pending\"}' || echo '{\"text\":\"󰚰 0\",\"class\":\"updated\"}'",
+            "return-type": "json",
+            "interval": 60,
+            "tooltip": false,
+            "on-click": "alacritty --class floating-terminal --command sudo pacman -Syu",
+            "_inverted": false
+        },
+        "custom/power": {
+            "format": "⏻",
+            "on-click": "wlogout -b 3 -c 20 -r 20 -L 400 -R 400 -T 200 -B 200 --protocol layer-shell",
+            "tooltip": false
+        },
+        "name": "bar",
+        "group/Connect": {
+            "orientation": "inherit",
+            "modules": [
+                "network",
+                "bluetooth"
+            ],
+            "drawer": {
+                "transition-duration": 500,
+                "children-class": "",
+                "transition-left-to-right": false
+            }
+        },
+        "group/Sysinfo": {
+            "orientation": "inherit",
+            "modules": [
+                "cpu",
+                "disk",
+                "memory",
+                "temperature"
+            ],
+            "drawer": {
+                "transition-duration": 500,
+                "children-class": "",
+                "transition-left-to-right": false
+            }
+        }
+    }
+]

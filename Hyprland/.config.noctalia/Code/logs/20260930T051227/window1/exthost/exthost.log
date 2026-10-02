@@ -1,0 +1,38 @@
+2026-09-30 05:12:28.067 [info] Extension host with pid 12515 started
+2026-09-30 05:12:28.239 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-09-30 05:12:28.259 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-09-30 05:12:28.269 [info] ExtensionService#_doActivateExtension tamasfe.even-better-toml, startup: false, activationEvent: 'onLanguage:toml'
+2026-09-30 05:12:29.105 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-09-30 05:12:29.107 [info] ExtensionService#_doActivateExtension mhutchie.git-graph, startup: true, activationEvent: '*'
+2026-09-30 05:12:29.122 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-09-30 05:12:29.149 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-09-30 05:12:29.203 [info] Eager extensions activated
+2026-09-30 05:12:29.215 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-09-30 05:12:29.216 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-09-30 05:12:29.226 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2026-09-30 05:12:29.232 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2026-09-30 05:12:29.240 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2026-09-30 05:12:34.668 [info] Extension host terminating: received terminate message from renderer
+2026-09-30 05:12:34.683 [info] Extension host with pid 12515 exiting with code 0
+2026-09-30 05:12:35.476 [info] Extension host with pid 13937 started
+2026-09-30 05:12:35.476 [info] Skipping acquiring lock for /home/radio/.config/Code/User/workspaceStorage/e0685df4962b20797b629574ff3a4808.
+2026-09-30 05:12:35.591 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-09-30 05:12:35.609 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-09-30 05:12:35.620 [info] ExtensionService#_doActivateExtension yinfei.luahelper, startup: false, activationEvent: 'onLanguage:lua'
+2026-09-30 05:12:35.713 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-09-30 05:12:35.716 [info] ExtensionService#_doActivateExtension mhutchie.git-graph, startup: true, activationEvent: '*'
+2026-09-30 05:12:35.811 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-09-30 05:12:35.846 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-09-30 05:12:35.897 [info] Eager extensions activated
+2026-09-30 05:12:35.910 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-09-30 05:12:35.912 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-09-30 05:12:35.924 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2026-09-30 05:12:35.931 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2026-09-30 05:12:35.939 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2026-09-30 05:12:36.554 [info] ExtensionService#_doActivateExtension tamasfe.even-better-toml, startup: false, activationEvent: 'onLanguage:toml'
+2026-09-30 05:15:12.115 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2026-09-30 05:15:56.749 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-09-30 05:15:56.759 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-09-30 05:15:56.805 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-09-30 05:17:38.362 [info] Extension host terminating: received terminate message from renderer
+2026-09-30 05:17:38.391 [info] Extension host with pid 13937 exiting with code 0

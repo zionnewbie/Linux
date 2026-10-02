@@ -1,0 +1,269 @@
+["INFO" - 15:48:30] Extension Name: esbenp.prettier-vscode.
+["INFO" - 15:48:30] Extension Version: 12.4.0.
+["INFO" - 15:48:30] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 15:48:30] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 15:48:56] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 15:48:56] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 15:48:58] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 15:48:58] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 15:49:00] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 15:49:00] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 15:49:02] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 15:49:02] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 15:49:19] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 15:49:19] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 15:49:20] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 15:49:20] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 15:49:36] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 15:49:36] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 15:49:42] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 15:49:42] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 15:49:53] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 15:49:53] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 15:50:00] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 15:50:00] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 15:50:30] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 15:50:30] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 15:50:35] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 15:50:35] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 15:50:40] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 15:50:40] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 15:50:45] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 15:50:45] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 15:50:56] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 15:50:56] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 15:50:58] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 15:50:58] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 15:50:59] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 15:50:59] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 15:51:01] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 15:51:01] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 15:51:18] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 15:51:18] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 15:57:10] Forced formatting will not use ignore files.
+["INFO" - 15:57:10] Formatting file:///home/radio/.config/waybar/style.css
+["INFO" - 15:57:10] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 15:57:10] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 15:57:10] PrettierInstance:
+{
+  "__debug": {
+    "mockable": {
+      "mocked": {},
+      "implementations": {}
+    }
+  },
+  "__internal": {
+    "errors": {},
+    "optionCategories": {
+      "CATEGORY_CONFIG": "Config",
+      "CATEGORY_EDITOR": "Editor",
+      "CATEGORY_FORMAT": "Format",
+      "CATEGORY_GLOBAL": "Global",
+      "CATEGORY_OTHER": "Other",
+      "CATEGORY_OUTPUT": "Output",
+      "CATEGORY_SPECIAL": "Special"
+    },
+    "formatOptionsHiddenDefaults": {
+      "astFormat": "estree",
+      "printer": {},
+      "locStart": null,
+      "locEnd": null,
+      "getVisitorKeys": null
+    },
+    "vnopts": {
+      "apiDescriptor": {}
+    },
+    "picocolors": {
+      "isColorSupported": false
+    },
+    "utilities": {}
+  },
+  "doc": {
+    "builders": {
+      "line": {
+        "type": "line"
+      },
+      "softline": {
+        "type": "line",
+        "soft": true
+      },
+      "hardline": [
+        {
+          "type": "line",
+          "hard": true
+        },
+        {
+          "type": "break-parent"
+        }
+      ],
+      "literalline": [
+        {
+          "type": "line",
+          "hard": true,
+          "literal": true
+        },
+        {
+          "type": "break-parent"
+        }
+      ],
+      "lineSuffixBoundary": {
+        "type": "line-suffix-boundary"
+      },
+      "cursor": {
+        "type": "cursor"
+      },
+      "breakParent": {
+        "type": "break-parent"
+      },
+      "trim": {
+        "type": "trim"
+      },
+      "hardlineWithoutBreakParent": {
+        "type": "line",
+        "hard": true
+      },
+      "literallineWithoutBreakParent": {
+        "type": "line",
+        "hard": true,
+        "literal": true
+      }
+    },
+    "default": {
+      "builders": {
+        "line": {
+          "type": "line"
+        },
+        "softline": {
+          "type": "line",
+          "soft": true
+        },
+        "hardline": [
+          {
+            "type": "line",
+            "hard": true
+          },
+          {
+            "type": "break-parent"
+          }
+        ],
+        "literalline": [
+          {
+            "type": "line",
+            "hard": true,
+            "literal": true
+          },
+          {
+            "type": "break-parent"
+          }
+        ],
+        "lineSuffixBoundary": {
+          "type": "line-suffix-boundary"
+        },
+        "cursor": {
+          "type": "cursor"
+        },
+        "breakParent": {
+          "type": "break-parent"
+        },
+        "trim": {
+          "type": "trim"
+        },
+        "hardlineWithoutBreakParent": {
+          "type": "line",
+          "hard": true
+        },
+        "literallineWithoutBreakParent": {
+          "type": "line",
+          "hard": true,
+          "literal": true
+        }
+      },
+      "printer": {},
+      "utils": {}
+    },
+    "printer": {},
+    "utils": {}
+  },
+  "util": {},
+  "version": "3.7.4"
+}
+["WARN" - 15:57:10] Unable to resolve ignore path: .prettierignore for /home/radio/.config/waybar/style.css
+["INFO" - 15:57:10] Resolved plugins:
+[]
+["INFO" - 15:57:10] File Info:
+{
+  "ignored": false,
+  "inferredParser": "css"
+}
+["INFO" - 15:57:10] Using VS Code configuration
+["INFO" - 15:57:10] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "singleAttributePerLine": false,
+  "bracketSameLine": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "all",
+  "useTabs": false,
+  "embeddedLanguageFormatting": "auto",
+  "vueIndentScriptAndStyle": false,
+  "experimentalTernaries": false,
+  "objectWrap": "preserve",
+  "experimentalOperatorPosition": "end",
+  "filepath": "/home/radio/.config/waybar/style.css",
+  "parser": "css"
+}
+["INFO" - 15:57:10] Formatting completed in 36ms.
+["INFO" - 16:00:59] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 16:00:59] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 16:01:02] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 16:01:02] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 16:01:06] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 16:01:06] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 16:04:10] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 16:04:10] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 16:05:17] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 16:05:17] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 16:05:24] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 16:05:24] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 16:05:25] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 16:05:25] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 16:05:28] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 16:05:28] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 16:05:34] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 16:05:34] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 16:05:38] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 16:05:38] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 16:06:03] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 16:06:03] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 16:30:20] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 16:30:20] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 16:30:36] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 16:30:36] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 16:31:01] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 16:31:01] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 16:31:04] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 16:31:04] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 16:31:06] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 16:31:06] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 16:31:07] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 16:31:07] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 16:31:26] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 16:31:26] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 16:31:28] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 16:31:28] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 16:31:29] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 16:31:29] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration
+["INFO" - 16:31:49] EditorConfig support is enabled, checking for .editorconfig files
+["INFO" - 16:31:49] No local configuration (i.e. .prettierrc or .editorconfig) detected, will fall back to VS Code configuration

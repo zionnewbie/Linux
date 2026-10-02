@@ -1,0 +1,75 @@
+2026-09-27 15:10:06.636 [info] [RemoteAgentHost] Reconciling: desired=[], current=[]
+2026-09-27 15:10:06.919 [info] Started local extension host with pid 117426.
+2026-09-27 15:10:07.939 [error] [Extension Host] (node:117426) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-09-27 15:10:07.949 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-27 15:10:08.124 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-09-27 15:10:08.144 [error] [Extension Host] Sending request failed.
+2026-09-27 15:10:08.146 [error] [Extension Host] Error: Unexpected SIGPIPE
+	at process.<anonymous> (file:///usr/share/code/resources/app/out/bootstrap-fork.js:4:1691)
+	at process.emit (node:events:514:28)
+2026-09-27 15:10:08.146 [error] [Extension Host] Sending request failed.
+2026-09-27 15:10:08.151 [error] [Extension Host] Sending request failed.
+2026-09-27 15:10:08.183 [error] [Extension Host] Sending request failed.
+2026-09-27 15:10:08.186 [error] [Extension Host] Sending request failed.
+2026-09-27 15:10:09.044 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-27 15:10:09.621 [info] [perf] Render performance baseline is 12ms
+2026-09-27 15:10:12.950 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-27 15:10:25.497 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-27 15:10:36.924 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-27 15:10:51.926 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-27 15:11:06.922 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-27 15:11:21.923 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-27 15:11:36.926 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-27 15:11:51.927 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-27 15:12:06.928 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-27 15:12:21.928 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-27 15:12:36.927 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-27 15:12:51.928 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-27 15:13:06.928 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-27 15:13:21.927 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-27 15:13:36.926 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-27 15:13:51.926 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-27 15:14:06.929 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-27 15:14:21.925 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-27 15:14:36.927 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-27 15:14:51.927 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-27 15:15:06.928 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-27 15:15:21.929 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-27 15:15:36.930 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-27 15:15:51.931 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-27 15:16:06.931 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-27 15:16:21.932 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-27 15:16:36.931 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-27 15:16:51.932 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-27 15:17:06.933 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-27 15:17:21.932 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-27 15:17:36.932 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-27 15:17:51.933 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-27 15:18:06.933 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-27 15:18:21.934 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-27 15:18:36.935 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-27 15:18:51.936 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-27 15:19:06.938 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-27 15:19:21.936 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-27 15:19:36.937 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-27 15:19:51.935 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-27 15:20:06.937 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-27 15:20:21.937 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-27 15:20:36.937 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-27 15:20:51.935 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-27 15:21:06.936 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-27 15:21:21.938 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-27 15:21:36.938 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-27 15:21:51.938 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-27 15:22:06.937 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-27 15:22:21.939 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-27 15:22:36.939 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-27 15:22:51.939 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-27 15:23:06.941 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-27 15:23:21.941 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-27 15:23:36.943 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-27 15:23:46.877 [info] [RemoteAgentHost] Reconciling: desired=[], current=[]
+2026-09-27 15:23:47.099 [info] Started local extension host with pid 118709.
+2026-09-27 15:23:47.881 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-27 15:23:48.119 [info] Settings Sync: Account status changed from uninitialized to unavailable

@@ -1,0 +1,15 @@
+2026-09-30 16:04:36.412 [info] [RemoteAgentHost] Reconciling: desired=[], current=[]
+2026-09-30 16:04:36.772 [info] Started local extension host with pid 21814.
+2026-09-30 16:04:37.414 [warning] [chat-stt] could not refresh GitHub session state for cloud dictation Canceled
+2026-09-30 16:04:37.414 [error] Canceled: Canceled
+    at cC (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:8:1620)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5228:47399
+    at Array.forEach (<anonymous>)
+    at s.dispose (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5228:47307)
+    at Z2.dispose (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5228:60647)
+    at UCo.dispose (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5235:10470)
+    at VCo.stopAllInReverse (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5235:9610)
+    at async LPt._doStopExtensionHosts (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5234:22900)
+2026-09-30 16:04:37.414 [warning] [chat-stt] could not refresh GitHub session state for cloud dictation Canceled
+2026-09-30 16:04:37.414 [warning] [DefaultAccount] Attempt 1 to get sessions failed: Canceled
+2026-09-30 16:04:37.414 [warning] No search provider registered for scheme: file, waiting

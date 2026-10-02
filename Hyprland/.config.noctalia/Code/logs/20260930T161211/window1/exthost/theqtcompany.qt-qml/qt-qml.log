@@ -1,0 +1,150 @@
+2026-09-30 16:12:14.023 [info] [installer] Installer initialized with path: /home/radio/.config/Code/User/globalStorage/theqtcompany.qt-qml/qmlls
+2026-09-30 16:12:14.023 [info] [project] Creating project:/home/radio/.config
+2026-09-30 16:12:14.023 [info] [qmlls-queue] Enqueueing start operation
+2026-09-30 16:12:14.023 [info] [qmlls] Fetching release information
+2026-09-30 16:12:14.023 [info] [qmlls-queue] Processing start operation
+2026-09-30 16:12:14.023 [error] [qmlls] Cannot start QML language server. not found
+2026-09-30 16:12:14.023 [info] [qmlls-queue] Completed start operation
+2026-09-30 16:12:14.098 [info] [installer] Fetched release info from: https://qtccache.qt.io/QMLLS/LatestRelease
+2026-09-30 16:12:14.100 [info] [installer] Selected asset: qmllanguageserver-linux-x64-0.8.zip
+2026-09-30 16:12:14.101 [info] [qmlls] Status Check: Not Installed
+2026-09-30 16:12:16.162 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder ".config"
+2026-09-30 16:12:18.928 [info] [qmlls] Installing QML language server
+2026-09-30 16:12:18.928 [info] [qmlls] Stopping QML language server to install new version
+2026-09-30 16:12:18.928 [info] [qmlls-queue] Enqueueing stop operation
+2026-09-30 16:12:18.928 [info] [qmlls-queue] Processing stop operation
+2026-09-30 16:12:18.928 [info] [qmlls-queue] Completed stop operation
+2026-09-30 16:12:18.928 [info] [qmlls] Installing: qmllanguageserver-linux-x64-0.8.zip, 0.8
+2026-09-30 16:12:18.928 [info] [qmlls-queue] Enqueueing install operation
+2026-09-30 16:12:18.929 [info] [qmlls-queue] Processing install operation
+2026-09-30 16:12:18.929 [info] [installer] Downloading from: https://github.com/TheQtCompanyRnD/qmlls-workflow/releases/download/0.8/qmllanguageserver-linux-x64-0.8.zip
+2026-09-30 16:12:20.841 [info] [installer] Unzipping to: /home/radio/.config/Code/User/globalStorage/theqtcompany.qt-qml/qmlls/files
+2026-09-30 16:12:21.079 [info] [installer] QML language server installed to: /home/radio/.config/Code/User/globalStorage/theqtcompany.qt-qml/qmlls/files/qmlls
+2026-09-30 16:12:21.079 [info] [qmlls-queue] Completed install operation
+2026-09-30 16:12:21.079 [info] [qmlls] Installation done
+2026-09-30 16:12:21.079 [info] [qmlls-queue] Enqueueing start operation
+2026-09-30 16:12:21.079 [info] [qmlls-queue] Processing start operation
+2026-09-30 16:12:21.089 [info] [qmlls] Starting QML Language Server with:
+2026-09-30 16:12:21.089 [info] [qmlls-queue] Completed start operation
+2026-09-30 16:12:21.098 [error] [qmlls] LanguageClient has failed to start with /home/radio/.config/Code/User/globalStorage/theqtcompany.qt-qml/qmlls/files/qmlls
+2026-09-30 16:12:33.824 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder "undefined"
+2026-09-30 16:12:33.853 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder ".config"
+2026-09-30 16:12:39.259 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder "undefined"
+2026-09-30 16:12:39.269 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder ".config"
+2026-09-30 16:12:40.358 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder "undefined"
+2026-09-30 16:12:50.723 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder ".config"
+2026-09-30 16:12:58.200 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder "undefined"
+2026-09-30 16:12:58.215 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder ".config"
+2026-09-30 16:13:37.052 [info] [extension] Deactivating qt-qml
+2026-09-30 16:13:37.052 [info] [project] Disposing project:/home/radio/.config
+2026-09-30 16:13:47.387 [info] [installer] Installer initialized with path: /home/radio/.config/Code/User/globalStorage/theqtcompany.qt-qml/qmlls
+2026-09-30 16:13:47.387 [info] [project] Creating project:/home/radio/.mydotfiles
+2026-09-30 16:13:47.387 [info] [qmlls-queue] Enqueueing start operation
+2026-09-30 16:13:47.387 [info] [qmlls] Fetching release information
+2026-09-30 16:13:47.387 [info] [qmlls-queue] Processing start operation
+2026-09-30 16:13:47.387 [info] [qmlls] Starting QML Language Server with:
+2026-09-30 16:13:47.387 [info] [qmlls-queue] Completed start operation
+2026-09-30 16:13:47.387 [error] [qmlls] LanguageClient has failed to start with /home/radio/.config/Code/User/globalStorage/theqtcompany.qt-qml/qmlls/files/qmlls
+2026-09-30 16:13:47.528 [info] [installer] Fetched release info from: https://qtccache.qt.io/QMLLS/LatestRelease
+2026-09-30 16:13:47.530 [info] [installer] Selected asset: qmllanguageserver-linux-x64-0.8.zip
+2026-09-30 16:13:47.536 [info] [qmlls] Status Check: Found, but not executable
+2026-09-30 16:13:58.564 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder ".mydotfiles"
+2026-09-30 16:14:00.541 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder "undefined"
+2026-09-30 16:14:06.161 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder ".mydotfiles"
+2026-09-30 16:14:08.751 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder "undefined"
+2026-09-30 16:14:08.766 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder ".mydotfiles"
+2026-09-30 16:14:09.815 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder "undefined"
+2026-09-30 16:14:09.829 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder ".mydotfiles"
+2026-09-30 16:14:11.086 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder "undefined"
+2026-09-30 16:14:11.100 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder ".mydotfiles"
+2026-09-30 16:14:13.069 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder "undefined"
+2026-09-30 16:14:13.083 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder ".mydotfiles"
+2026-09-30 16:14:14.615 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder "undefined"
+2026-09-30 16:14:14.627 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder ".mydotfiles"
+2026-09-30 16:14:16.142 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder "undefined"
+2026-09-30 16:14:16.155 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder ".mydotfiles"
+2026-09-30 16:14:17.326 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder "undefined"
+2026-09-30 16:14:17.342 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder ".mydotfiles"
+2026-09-30 16:14:20.574 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder "undefined"
+2026-09-30 16:14:20.588 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder ".mydotfiles"
+2026-09-30 16:14:22.781 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder "undefined"
+2026-09-30 16:14:22.795 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder ".mydotfiles"
+2026-09-30 16:14:30.119 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder "undefined"
+2026-09-30 16:14:30.143 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder ".mydotfiles"
+2026-09-30 16:14:32.431 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder "undefined"
+2026-09-30 16:14:32.449 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder ".mydotfiles"
+2026-09-30 16:14:34.286 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder "undefined"
+2026-09-30 16:14:34.299 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder ".mydotfiles"
+2026-09-30 16:14:36.630 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder "undefined"
+2026-09-30 16:14:36.647 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder ".mydotfiles"
+2026-09-30 16:14:40.176 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder "undefined"
+2026-09-30 16:14:40.196 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder ".mydotfiles"
+2026-09-30 16:14:42.797 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder "undefined"
+2026-09-30 16:14:42.811 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder ".mydotfiles"
+2026-09-30 16:14:46.172 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder "undefined"
+2026-09-30 16:14:55.334 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder ".mydotfiles"
+2026-09-30 16:14:56.638 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder "undefined"
+2026-09-30 16:14:56.653 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder ".mydotfiles"
+2026-09-30 16:14:57.509 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder "undefined"
+2026-09-30 16:14:57.522 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder ".mydotfiles"
+2026-09-30 16:15:04.582 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder "undefined"
+2026-09-30 16:15:04.596 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder ".mydotfiles"
+2026-09-30 16:15:06.477 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder "undefined"
+2026-09-30 16:15:06.491 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder ".mydotfiles"
+2026-09-30 16:15:09.543 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder "undefined"
+2026-09-30 16:15:09.561 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder ".mydotfiles"
+2026-09-30 16:15:10.853 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder "undefined"
+2026-09-30 16:15:10.866 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder ".mydotfiles"
+2026-09-30 16:15:18.149 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder "undefined"
+2026-09-30 16:15:18.168 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder ".mydotfiles"
+2026-09-30 16:15:20.278 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder "undefined"
+2026-09-30 16:15:20.292 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder ".mydotfiles"
+2026-09-30 16:15:25.165 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder "undefined"
+2026-09-30 16:15:25.179 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder ".mydotfiles"
+2026-09-30 16:15:26.477 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder "undefined"
+2026-09-30 16:15:26.492 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder ".mydotfiles"
+2026-09-30 16:15:26.942 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder "undefined"
+2026-09-30 16:15:26.955 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder ".mydotfiles"
+2026-09-30 16:15:28.838 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder "undefined"
+2026-09-30 16:15:28.852 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder ".mydotfiles"
+2026-09-30 16:15:30.749 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder "undefined"
+2026-09-30 16:15:30.762 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder ".mydotfiles"
+2026-09-30 16:15:32.045 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder "undefined"
+2026-09-30 16:15:32.058 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder ".mydotfiles"
+2026-09-30 16:15:33.133 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder "undefined"
+2026-09-30 16:15:33.155 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder ".mydotfiles"
+2026-09-30 16:15:35.031 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder "undefined"
+2026-09-30 16:15:40.434 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder ".mydotfiles"
+2026-09-30 16:15:45.542 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder "undefined"
+2026-09-30 16:15:45.557 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder ".mydotfiles"
+2026-09-30 16:15:55.132 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder "undefined"
+2026-09-30 16:15:55.147 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder ".mydotfiles"
+2026-09-30 16:15:55.941 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder "undefined"
+2026-09-30 16:15:55.955 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder ".mydotfiles"
+2026-09-30 16:15:56.461 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder "undefined"
+2026-09-30 16:15:56.473 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder ".mydotfiles"
+2026-09-30 16:15:56.918 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder "undefined"
+2026-09-30 16:15:56.933 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder ".mydotfiles"
+2026-09-30 16:15:57.372 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder "undefined"
+2026-09-30 16:15:57.385 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder ".mydotfiles"
+2026-09-30 16:15:57.780 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder "undefined"
+2026-09-30 16:15:57.797 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder ".mydotfiles"
+2026-09-30 16:15:58.173 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder "undefined"
+2026-09-30 16:15:58.189 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder ".mydotfiles"
+2026-09-30 16:15:58.621 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder "undefined"
+2026-09-30 16:15:58.633 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder ".mydotfiles"
+2026-09-30 16:15:59.021 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder "undefined"
+2026-09-30 16:15:59.034 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder ".mydotfiles"
+2026-09-30 16:15:59.446 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder "undefined"
+2026-09-30 16:15:59.459 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder ".mydotfiles"
+2026-09-30 16:16:08.086 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder "undefined"
+2026-09-30 16:16:08.103 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder ".mydotfiles"
+2026-09-30 16:16:08.692 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder "undefined"
+2026-09-30 16:16:08.706 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder ".mydotfiles"
+2026-09-30 16:16:09.349 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder "undefined"
+2026-09-30 16:16:09.363 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder ".mydotfiles"
+2026-09-30 16:16:13.317 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder "undefined"
+2026-09-30 16:16:13.331 [info] [extension] Setting qmlPreviewLaunchEnabled to false for folder ".mydotfiles"
+2026-09-30 16:17:13.975 [info] [extension] Deactivating qt-qml
+2026-09-30 16:17:13.975 [info] [project] Disposing project:/home/radio/.mydotfiles
+2026-09-30 16:17:13.975 [warning] [qmlls] Canceled

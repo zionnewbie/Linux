@@ -1,0 +1,6 @@
+2026/09/27-13:54:41.417 18cbf Reusing MANIFEST /home/radio/.config/net.imput.helium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/09/27-13:54:41.417 18cbf Recovering log #3
+2026/09/27-13:54:41.420 18cbf Reusing old log /home/radio/.config/net.imput.helium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000003.log 
+2026/09/27-13:55:03.657 18cbf Level-0 table #5: started
+2026/09/27-13:55:03.666 18cbf Level-0 table #5: 1428653 bytes OK
+2026/09/27-13:55:03.667 18cbf Delete type=0 #3

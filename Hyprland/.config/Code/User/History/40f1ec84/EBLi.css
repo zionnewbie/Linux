@@ -1,0 +1,189 @@
+@define-color bg #1a1b26;
+@define-color island #24283b;
+@define-color island_alt #292e42;
+@define-color island_hover #1f2335;
+@define-color border #3b4261;
+
+@define-color fg #c0caf5;
+@define-color muted #565f89;
+
+@define-color blue #7aa2f7;
+@define-color cyan #7dcfff;
+@define-color purple #bb9af7;
+@define-color green #9ece6a;
+@define-color yellow #e0af68;
+@define-color red #f7768e;
+
+* {
+    border: none;
+    border-radius: 0;
+    min-height: 0;
+    font-family: "JetBrainsMono Nerd Font", "JetBrains Mono", monospace;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+window#waybar {
+    background: alpha(@bg, 0.78);
+    color: @fg;
+}
+
+#workspaces,
+#submap,
+#window,
+#tray,
+#pulseaudio,
+#network,
+#cpu,
+#memory,
+#disk,
+#battery,
+#backlight,
+#clock,
+#custom-power {
+    margin: 4px 3px;
+    padding: 0 10px;
+    background: @island;
+    color: @fg;
+    border-radius: 7px;
+}
+
+#workspaces {
+    padding: 0 4px;
+}
+
+#workspaces button {
+    min-width: 18px;
+    margin: 2px;
+    padding: 0 7px;
+    color: @muted;
+    background: transparent;
+    border-radius: 5px;
+    transition:
+        background-color 150ms ease,
+        color 150ms ease;
+}
+
+#workspaces button:hover {
+    color: @blue;
+    background: @island_hover;
+}
+
+#workspaces button.active {
+    color: @bg;
+    background: @blue;
+}
+
+#workspaces button.urgent {
+    color: @bg;
+    background: @red;
+}
+
+#submap {
+    color: @purple;
+    background: @island_alt;
+}
+
+#window {
+    color: @fg;
+}
+
+#tray {
+    padding: 0 8px;
+}
+
+#tray>.passive {
+    opacity: 0.65;
+}
+
+#tray>.needs-attention {
+    color: @red;
+}
+
+#pulseaudio {
+    color: @cyan;
+}
+
+#pulseaudio.muted {
+    color: @muted;
+}
+
+#network {
+    color: @blue;
+}
+
+#network.disconnected {
+    color: @red;
+}
+
+#cpu {
+    color: @purple;
+}
+
+#memory {
+    color: @green;
+}
+
+#disk {
+    color: @yellow;
+}
+
+#battery {
+    color: @green;
+}
+
+#battery.warning {
+    color: @yellow;
+}
+
+#battery.critical {
+    color: @red;
+}
+
+#battery.charging {
+    color: @cyan;
+}
+
+#backlight {
+    color: @yellow;
+}
+
+#clock {
+    padding: 0 12px;
+    color: @fg;
+    background: @island_alt;
+}
+
+tooltip {
+    padding: 6px 9px;
+    color: @fg;
+    background: @bg;
+    border: 1px solid @border;
+    border-radius: 7px;
+}
+
+tooltip label {
+    color: @fg;
+}
+
+
+
+/* new  */
+
+/* ─────────────────────────────────────────────
+ * Power button
+ * ───────────────────────────────────────────── */
+
+#custom-power {
+    padding: 0 7px;
+    background: alpha(@red, 0.80);
+    color: @base;
+
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#custom-power:hover {
+    background: @red;
+    color: @base;
+}

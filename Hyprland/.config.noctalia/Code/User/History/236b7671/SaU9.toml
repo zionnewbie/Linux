@@ -1,0 +1,156 @@
+config_version = 14
+
+[bar]
+order = [ "Default" ]
+
+    [bar.Default]
+    center = [ "group:g3" ]
+    end = [ "tray", "clipboard", "group:g2", "group:g1", "battery", "session" ]
+    font_family = "JetBrainsMono NF"
+    start = [ "launcher", "wallpaper", "workspaces", "media" ]
+
+        [[bar.Default.capsule_group]]
+        accordion = false
+        accordion_direction = "end"
+        enabled = true
+        fill = "surface_variant"
+        id = "g1"
+        members = [ "volume", "brightness" ]
+        opacity = 1.0
+        padding = 6.0
+
+        [[bar.Default.capsule_group]]
+        accordion = false
+        accordion_direction = "end"
+        enabled = true
+        fill = "surface_variant"
+        id = "g2"
+        members = [ "network", "bluetooth" ]
+        opacity = 1.0
+        padding = 6.0
+
+        [[bar.Default.capsule_group]]
+        accordion = false
+        accordion_direction = "end"
+        border = ""
+        enabled = true
+        fill = "outline"
+        id = "g3"
+        members = [ "notifications", "clock", "control-center" ]
+        opacity = 1.0
+        padding = 6.0
+
+[desktop_widgets]
+schema_version = 2
+widget_order = []
+
+    [desktop_widgets.grid]
+    cell_size = 16
+    major_interval = 4
+    visible = true
+
+    [desktop_widgets.widget]
+
+[lockscreen]
+wallpaper = "/home/radio/Pictures/Wallpapers/7.jpeg"
+
+[lockscreen_widgets]
+enabled = true
+schema_version = 2
+widget_order = [ "lockscreen-login-box@eDP-1" ]
+
+    [lockscreen_widgets.grid]
+    cell_size = 16
+    major_interval = 4
+    visible = true
+
+    [lockscreen_widgets.widget."lockscreen-login-box@eDP-1"]
+    box_height = 196.0
+    box_width = 810.0
+    cx = 640.0
+    cy = 598.66668701171875
+    output = "eDP-1"
+    placement_height = 720.0
+    placement_width = 1280.0
+    rotation = 0.0
+    type = "login_box"
+
+        [lockscreen_widgets.widget."lockscreen-login-box@eDP-1".settings]
+        background_color = "surface_variant"
+        background_opacity = 0.88
+        background_radius = 12.0
+        center_password_text = false
+        input_opacity = 1.0
+        input_radius = 6.0
+        layout = "regular"
+        show_caps_lock = true
+        show_keyboard_layout = true
+        show_login_button = true
+        show_media = true
+        show_session_buttons = true
+        show_unlock_hint = true
+        show_weather = true
+
+[plugin_settings."noctalia/wallhaven"]
+download_dir = "/home/radio/Pictures/Wallpapers/Wallhaven"
+
+[plugins]
+enabled = [ "lux/ideapad-conservation-mode", "noctalia/wallhaven" ]
+
+[shell]
+app_icon_colorize = true
+font_family = "JetBrainsMono NF"
+panel_anchor_bar = "default"
+polkit_agent = true
+settings_window_translucent = true
+
+[theme]
+builtin = "Tokyo-Night"
+community_palette = "Oxocarbon"
+mode = "auto"
+shell_mode = "auto"
+source = "wallpaper"
+
+    [theme.templates]
+    builtin_ids = [ "alacritty", "btop", "foot", "gtk3", "gtk4", "hyprland", "kcolorscheme", "qt", "scroll", "starship" ]
+
+[wallpaper]
+directory = "/home/radio/Pictures/Wallpapers"
+
+    [wallpaper.default]
+    path = "/home/radio/Pictures/Wallpapers/16.jpeg"
+
+    [wallpaper.last]
+    path = "/home/radio/Pictures/Wallpapers/16.jpeg"
+
+[widget.battery]
+font_family = "JetBrainsMono NF"
+
+[widget.bluetooth]
+font_family = "JetBrainsMono NF"
+hide_when_adapter_off = true
+show_label = true
+
+[widget.clipboard]
+font_family = "JetBrainsMono NF"
+
+[widget.control-center]
+font_family = "JetBrainsMono NF"
+
+[widget.launcher]
+font_family = "JetBrainsMono NF"
+
+[widget.media]
+font_family = "JetBrainsMono NF"
+hide_when_no_media = true
+
+[widget.network]
+font_family = "JetBrainsMono NF"
+show_label = false
+
+[widget.tray]
+drawer = true
+font_family = "JetBrainsMono NF"
+
+[widget.volume]
+font_family = "JetBrainsMono NF"

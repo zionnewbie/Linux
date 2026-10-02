@@ -1,0 +1,14 @@
+2026-10-01 17:17:44.877 [info] StorageMainService: creating application shared storage
+2026-10-01 17:17:44.929 [info] [shared storage] Creating shared storage database at '/home/radio/.vscode-shared/sharedStorage/state.vscdb' (wasCreated: false)
+2026-10-01 17:17:44.929 [info] [shared storage] Initializing fallback application storage (path: /home/radio/.config/Code/User/globalStorage/state.vscdb)
+2026-10-01 17:17:44.951 [info] [shared storage] Fallback application storage initialized with 94 items
+2026-10-01 17:17:45.306 [info] update#setState idle
+2026-10-01 17:17:50.471 [info] Extension host with pid 2783 exited with code: 0, signal: unknown.
+2026-10-01 17:17:57.421 [info] Extension host with pid 4987 exited with code: 0, signal: unknown.
+2026-10-01 17:18:15.308 [info] update#setState checking for updates
+2026-10-01 17:18:15.383 [info] update#setState idle
+2026-10-01 17:19:39.322 [error] Invalid path provided: /home/radio/.bashrc, ENOENT: no such file or directory, stat '/home/radio/.bashrc'
+2026-10-01 17:19:45.673 [error] Invalid path provided: /home/radio/.bashrc, ENOENT: no such file or directory, stat '/home/radio/.bashrc'
+2026-10-01 17:19:56.154 [error] Invalid path provided: /home/radio/.bashrc, ENOENT: no such file or directory, stat '/home/radio/.bashrc'
+2026-10-01 17:19:58.200 [info] Extension host with pid 7305 exited with code: 0, signal: unknown.
+2026-10-01 17:20:07.208 [info] Extension host with pid 7027 exited with code: 0, signal: unknown.

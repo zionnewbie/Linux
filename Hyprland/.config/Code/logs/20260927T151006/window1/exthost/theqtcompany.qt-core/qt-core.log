@@ -1,0 +1,21 @@
+2026-09-27 15:10:07.709 [info] [extension] Activating theqtcompany.qt-core
+2026-09-27 15:10:07.709 [info] [project] Creating project:"/home/radio/.config/quickshell"
+2026-09-27 15:10:07.709 [info] [vcpkg] vcpkg is not installed
+2026-09-27 15:10:07.709 [info] [qtpaths] Found qmake in PATH: /usr/bin/qmake
+2026-09-27 15:10:07.709 [warning] [api] Cannot determine target architecture for /usr/bin/qmake
+2026-09-27 15:10:07.709 [warning] [api] Cannot determine target architectures for /usr/bin/qmake
+2026-09-27 15:10:07.709 [info] [qtpaths] /usr/bin/qmake already exists in the settings
+2026-09-27 15:10:07.709 [info] [project] Setting Qt installation root for /home/radio/.config/quickshell to: 
+2026-09-27 15:10:07.709 [info] [project] Setting additional Qt paths for /home/radio/.config/quickshell to: 
+2026-09-27 15:10:07.709 [info] [project] Config values initialized for:/home/radio/.config/quickshell
+2026-09-27 15:10:20.917 [info] [qtcli] Creating a client. socket = qtcli-uds-ex-browser-50541f287e
+2026-09-27 15:10:20.917 [info] [qtcli] Starting a server. socket = qtcli-uds-ex-browser-50541f287e
+2026-09-27 15:10:20.922 [info] [qtcli] Run qtcli: /home/radio/.vscode/extensions/theqtcompany.qt-core-1.16.0/res/qtcli/qtcli-linux-amd64-1.6.0/qtcli server start --exit-on-idle --heartbeat 15s --socket ex-browser-50541f287e
+2026-09-27 15:10:20.930 [info] [qtcli] ex-browser-50541f287e: INFO[0000] PID file created at /tmp/qtcli/qtcli-uds-ex-browser-50541f287e.pid, pid = 117634
+2026-09-27 15:10:20.930 [info] [qtcli] ex-browser-50541f287e: INFO[0000] Starting server at /tmp/qtcli/qtcli-uds-ex-browser-50541f287e.sock
+2026-09-27 15:10:21.050 [info] [examples-data-manager] Selecting examples: /usr/share, Qt-5.15.19
+2026-09-27 15:10:23.490 [info] [qtcli] ex-browser-50541f287e: [GIN] 2026/09/27 - 15:10:23 | 200 |      88.903µs |                 | DELETE   "/v1/server"
+2026-09-27 15:10:24.491 [info] [qtcli] ex-browser-50541f287e: INFO[0003] Shutting down server...
+2026-09-27 15:10:24.492 [info] [qtcli] ex-browser-50541f287e: FATA[0003] Server error: http: Server closed
+2026-09-27 15:23:46.497 [info] [extension] Deactivating qt-core
+2026-09-27 15:23:46.497 [info] [project] Disposing project:/home/radio/.config/quickshell

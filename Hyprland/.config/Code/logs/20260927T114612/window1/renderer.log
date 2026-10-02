@@ -1,0 +1,59 @@
+2026-09-27 11:46:13.315 [info] [RemoteAgentHost] Reconciling: desired=[], current=[]
+2026-09-27 11:46:13.636 [info] Started local extension host with pid 80996.
+2026-09-27 11:46:14.593 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-27 11:46:14.771 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-09-27 11:46:16.318 [info] [perf] Render performance baseline is 18ms
+2026-09-27 11:46:16.841 [error] [Extension Host] (node:80996) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-09-27 11:46:17.536 [info] [RemoteAgentHost] Reconciling: desired=[], current=[]
+2026-09-27 11:46:17.778 [info] Started local extension host with pid 81185.
+2026-09-27 11:46:18.375 [error] [Extension Host] (node:81185) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-09-27 11:46:18.483 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-27 11:46:18.680 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-09-27 11:46:20.358 [info] [perf] Render performance baseline is 13ms
+2026-09-27 11:46:23.484 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-27 13:59:03.980 [error] Error: Unable to move/copy '/home/radio/.config/waybar/config.jsonc' because target '/home/radio/.config/waybar/backup/config.jsonc' already exists at destination.
+    at Kge.doValidateMoveCopy (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5187:97997)
+    at async Kge.doCanMoveCopy (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5187:95792)
+    at async eht.doMoveOrCopy (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:699:4744)
+    at async MDe.perform (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3894:8198)
+    at async J9e.apply (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3894:13675)
+    at async vDt._performFileEdits (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3894:21026)
+    at async vDt.perform (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3894:20464)
+    at async bDt.apply (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3894:23059)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3892:81302
+    at async r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1578:16252)
+2026-09-27 13:59:03.981 [error] Error: Unable to move/copy '/home/radio/.config/waybar/config.jsonc' because target '/home/radio/.config/waybar/backup/config.jsonc' already exists at destination.
+    at Kge.doValidateMoveCopy (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5187:97997)
+    at async Kge.doCanMoveCopy (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5187:95792)
+    at async eht.doMoveOrCopy (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:699:4744)
+    at async MDe.perform (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3894:8198)
+    at async J9e.apply (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3894:13675)
+    at async vDt._performFileEdits (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3894:21026)
+    at async vDt.perform (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3894:20464)
+    at async bDt.apply (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3894:23059)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3892:81302
+    at async r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1578:16252)
+2026-09-27 14:00:38.254 [error] Error: Unable to move/copy '/home/radio/.config/waybar/style.css' because target '/home/radio/.config/waybar/backup/style.css' already exists at destination.
+    at Kge.doValidateMoveCopy (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5187:97997)
+    at async Kge.doCanMoveCopy (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5187:95792)
+    at async eht.doMoveOrCopy (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:699:4744)
+    at async MDe.perform (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3894:8198)
+    at async J9e.apply (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3894:13675)
+    at async vDt._performFileEdits (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3894:21026)
+    at async vDt.perform (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3894:20464)
+    at async bDt.apply (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3894:23059)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3892:81302
+    at async r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1578:16252)
+2026-09-27 14:00:38.255 [error] Error: Unable to move/copy '/home/radio/.config/waybar/style.css' because target '/home/radio/.config/waybar/backup/style.css' already exists at destination.
+    at Kge.doValidateMoveCopy (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5187:97997)
+    at async Kge.doCanMoveCopy (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5187:95792)
+    at async eht.doMoveOrCopy (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:699:4744)
+    at async MDe.perform (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3894:8198)
+    at async J9e.apply (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3894:13675)
+    at async vDt._performFileEdits (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3894:21026)
+    at async vDt.perform (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3894:20464)
+    at async bDt.apply (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3894:23059)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3892:81302
+    at async r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1578:16252)

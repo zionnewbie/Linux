@@ -1,0 +1,12 @@
+2026-09-28 05:03:05.255 [info] [extension] Activating theqtcompany.qt-core
+2026-09-28 05:03:05.255 [info] [project] Creating project:"/home/radio/.config"
+2026-09-28 05:03:05.255 [info] [vcpkg] vcpkg is not installed
+2026-09-28 05:03:05.255 [info] [qtpaths] Found qmake in PATH: /usr/bin/qmake
+2026-09-28 05:03:05.255 [warning] [api] Cannot determine target architecture for /usr/bin/qmake
+2026-09-28 05:03:05.255 [warning] [api] Cannot determine target architectures for /usr/bin/qmake
+2026-09-28 05:03:05.255 [info] [qtpaths] /usr/bin/qmake already exists in the settings
+2026-09-28 05:03:05.255 [info] [project] Setting Qt installation root for /home/radio/.config to: 
+2026-09-28 05:03:05.255 [info] [project] Setting additional Qt paths for /home/radio/.config to: 
+2026-09-28 05:03:05.255 [info] [project] Config values initialized for:/home/radio/.config
+2026-09-28 05:05:20.881 [info] [extension] Deactivating qt-core
+2026-09-28 05:05:20.881 [info] [project] Disposing project:/home/radio/.config
