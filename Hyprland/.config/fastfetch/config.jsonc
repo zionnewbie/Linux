@@ -65,8 +65,8 @@
       "width": 10, // Width of percentage bars
       "char": {
         "elapsed": "■", // Character for elapsed portion
-        "total": "-", // Character for total portion
-      },
+        "total": "-" // Character for total portion
+      }
     },
     "percent": {
       "type": 9, // See below
