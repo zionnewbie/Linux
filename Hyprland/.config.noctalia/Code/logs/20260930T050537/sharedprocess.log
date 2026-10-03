@@ -1,7 +1,0 @@
-2026-09-30 05:05:44.299 [info] Getting Manifest... ms-python.python
-2026-09-30 05:05:44.476 [info] Installing extension: ms-python.python {"productVersion":{"version":"1.139.1","date":"2026-09-25T03:40:57Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/radio/.vscode/extensions/extensions.json","path":"/home/radio/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isBuiltin":false}
-2026-09-30 05:05:47.574 [info] Extension signature verification result for ms-python.python: Success. Internal Code: 0. Executed: true. Duration: 468ms.
-2026-09-30 05:05:48.075 [info] Extracted extension to file:///home/radio/.vscode/extensions/ms-python.python-2026.6.0-linux-x64: ms-python.python
-2026-09-30 05:05:48.107 [info] Renamed to /home/radio/.vscode/extensions/ms-python.python-2026.6.0-linux-x64
-2026-09-30 05:05:48.116 [info] Marked extension as removed ms-python.python-2026.4.0-linux-x64
-2026-09-30 05:05:48.126 [info] Extension installed successfully: ms-python.python vscode-userdata:/home/radio/.vscode/extensions/extensions.json

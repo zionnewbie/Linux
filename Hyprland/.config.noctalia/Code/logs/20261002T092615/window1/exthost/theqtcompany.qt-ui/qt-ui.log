@@ -1,5 +1,0 @@
-2026-10-02 09:26:17.865 [info] [extension] Activating theqtcompany.qt-ui
-2026-10-02 09:26:17.865 [info] [designer-server] Designer server is created
-2026-10-02 09:26:17.865 [info] [project] Read custom desinger exe path: value = , folder = '/home/radio'
-2026-10-02 09:26:17.865 [info] [designer-server] Designer server is listening on 0
-2026-10-02 09:26:30.772 [info] [extension] Deactivating qt-ui
